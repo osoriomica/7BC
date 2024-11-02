@@ -28,30 +28,38 @@
     header{
         display: flex;
         justify-content: space-between;
-        align-items:flex-start;
+        align-items:baseline;
         padding: 0 1rem;
         position: fixed;
-        z-index: 100;
+        z-index: 42;
         width: 100%;
+        box-shadow: 0 1px 1px #2e2e2e;
     }
+
     header a{
         text-decoration: none;
-        color: #2e2e2e;
+        color: inherit;
     }
 
     #menu{
         font-size: 120%;
+        font-family: 'Roboto', sans-serif;
         list-style-type: none;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
     }
 
     #menu > li {
-        margin-bottom: .5em;
+        margin-bottom: .7em;
     }
     
-    .active{
+    #menu > li:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+
+    .active{
+        font-weight: 500;
+    }
+    
 /* Navbar styles w/ dropdown toggle */
     nav{
         position: absolute;
@@ -75,7 +83,7 @@
         }
 
     /* logo in navbar */
-        .logo{
+        #logo{
             margin-top: 10px;
             height: 160px;
             width:160px;
