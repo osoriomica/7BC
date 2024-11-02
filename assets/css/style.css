@@ -42,10 +42,10 @@
     }
 
     #menu{
-        font-size: 120%;
+        font-size: 130%;
         font-family: 'Roboto', sans-serif;
         list-style-type: none;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
 
     #menu > li {
@@ -53,19 +53,21 @@
     }
     
     #menu > li:hover{
-        border-bottom: 1px solid #3a3a3a;
+        background-color:rgba(247, 152, 28, 1);
+        color: #fafafa;
     }
 
     .active{
-        font-weight: 500;
+        font-weight: 700;
     }
-    
+
 /* Navbar styles w/ dropdown toggle */
     nav{
         position: absolute;
+        background-color: #fafafa;
         width: 100%;
         left: 0%;
-        padding: 0 1rem;
+        padding: 1rem;
         box-shadow: 0 2px 2px #3a3a3a;
         top: 100%;
     }
@@ -84,11 +86,12 @@
 
     /* logo in navbar */
         #logo{
-            margin-top: 10px;
+            margin-top: -117px;
             height: 160px;
             width:160px;
             background: url(../images/logo\ 1.png) no-repeat center center/cover;
-            float: right;
+            float:right;
+            background-color: #fff;
         }
 /* Main */
 
