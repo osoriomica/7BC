@@ -1,19 +1,91 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Override default styles added by the browser*/
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-/* General Styles */
-body{
-    min-height:100vh;
-    display: flex;
-    flex-direction: column;
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
 
-    /* Generic project styles */
-    color:#2e2e2e;
-    font-family: 'Roboto', sans-serif;
-}
+/* General Styles */
+    body{
+        min-height:100vh;
+        display: flex;
+        flex-direction: column;
+        /* Generic project styles */
+        color:#2e2e2e;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+        color: #2e2e2e;
+    }
+
+/* header */
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        padding: 0 1rem;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+    }
+    header a{
+        text-decoration: none;
+        color: #2e2e2e;
+    }
+
+    #menu{
+        font-size: 120%;
+        list-style-type: none;
+        letter-spacing: 4px;
+    }
+
+    #menu > li {
+        margin-bottom: .5em;
+    }
+    
+    .active{
+        border-bottom: 1px solid #3a3a3a;
+    }
+/* Navbar styles w/ dropdown toggle */
+    nav{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        top: 100%;
+    }
+
+    /* nav toggle */
+        #nav-toggle:checked~nav{
+            display: block;
+        }
+
+        #nav-toggle{
+            display: none;
+        }
+        .nav-toggle-label{
+            font-size: 2rem;
+        }
+
+    /* logo in navbar */
+        .logo{
+            margin-top: 10px;
+            height: 160px;
+            width:160px;
+            background: url(../images/logo\ 1.png) no-repeat center center/cover;
+            float: right;
+        }
+/* Main */
+
+/* Footer */
+
+/* Contact form */
+
+/* Media Queries */
