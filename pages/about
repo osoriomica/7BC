@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="seven bridges cafe, newcastle-upon-tyne, world cuisine, WERS, Dance City, cafe, NE1, volunteering, food safety level 2, coffee, brunch ideas">
-    <meta name="description" content="The Seven Bridges Café is a joint partnership between Dance City and the West End Refugee Service (WERS). A vibrant and inclusive space that offers great food, promotes diversity, strengthens community connections and offers volunteering placements.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo 1.png">
+    <!-- SEO optimisation -->
+    <meta name="keywords"
+        content="seven bridges cafe, newcastle-upon-tyne, world cuisine, WERS, Dance City, cafe, NE1, volunteering, food safety level 2, coffee, brunch ideas">
+    <meta name="description"
+        content="The Seven Bridges Café is a joint partnership between Dance City and the West End Refugee Service (WERS). A vibrant and inclusive space that offers great food, promotes diversity, strengthens community connections and offers volunteering placements.">
     <meta name="author" content="The Seven Bridges cafe, Dance City">
-    <title>The Seven Bridges</title>
-    <link rel="stylesheet" href=".//assets/css/style.css">
+    <title>The Seven Bridges | About</title> 
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+   
+
 </body>
+
 </html>
