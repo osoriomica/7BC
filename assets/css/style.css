@@ -16,6 +16,8 @@
         /* Generic project styles */
         color:#2e2e2e;
         font-family: 'Roboto', sans-serif;
+        /* Background image*/
+        background-image: url(../images/bg.jpg);
     }
 
     h1, h2, h3 {
@@ -28,11 +30,12 @@
     header{
         display: flex;
         justify-content:space-between;
-        align-items:baseline;
+        align-items:center;
         position: fixed;
         z-index: 42;
         width: 100%;
         box-shadow: 0 1px 4px #f15820;
+        background-color: rgba(255, 255, 255, .8);
     }
 
     nav a{
@@ -68,10 +71,8 @@
     nav{
         align-content: flex-start;
         position: absolute;
-        background-color: #fff;
         width: 100%;
         left: 0%;
-        /* padding: 1rem; */
         box-shadow: 0 1px 4px #f15820;
         display: none;
         top: 100%;
@@ -102,6 +103,7 @@
             background-color: rgba(255, 255, 255, .5);
             z-index: 41;
         }
+     
 /* Main */
         main{
             margin-top:170px;
@@ -130,6 +132,7 @@
     #menu > li {
         padding-right: 3rem;
         padding-left: 3rem;
+        font-weight: 500;
     }
 
     .nav-toggle-label{
