@@ -29,7 +29,6 @@
         display: flex;
         justify-content:space-between;
         align-items:baseline;
-        padding: 0 1rem;
         position: fixed;
         z-index: 42;
         width: 100%;
@@ -46,18 +45,19 @@
         font-family: 'Roboto', sans-serif;
         list-style-type: none;
         letter-spacing: 3px;
-        width:auto;
+        width:100%;
     }
 
     #menu > li {
         margin-bottom: .3em;
         padding: 5px;
-        margin-right: 30px;
     }
     
     #menu > li:hover{
         background-color:rgba(247, 152, 28, 1);
         color: #fafafa;
+        border:hidden;
+        border-radius: 5px;
     }
 
     .active{
@@ -71,7 +71,7 @@
         background-color: #fff;
         width: 100%;
         left: 0%;
-        padding: 1rem;
+        /* padding: 1rem; */
         box-shadow: 0 1px 4px #f15820;
         display: none;
         top: 100%;
@@ -95,8 +95,8 @@
     /* logo in navbar */
         #logo{
             margin: 10px;
-            height: 150px;
-            width:150px;
+            height: 145px;
+            width:145px;
             background: url(../images/logo\ 1.png) no-repeat center center/cover;
             float:right;
             background-color: rgba(255, 255, 255, .5);
@@ -120,6 +120,7 @@
         box-shadow: none;
         width: fit-content;
         padding-left: 2rem;
+        align-self:auto;
     }
 
     #menu {
@@ -127,8 +128,8 @@
     }
 
     #menu > li {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
 
     .nav-toggle-label{
@@ -137,7 +138,7 @@
     #logo{
         height:120px;
         width: 120px;
-        margin-top: 20px;
+        margin: 20px;
     }
 
 }
