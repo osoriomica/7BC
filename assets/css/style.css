@@ -17,13 +17,13 @@
         color:#2e2e2e;
         font-family: 'Roboto', sans-serif;
         /* Background image*/
-        background-image: url(../images/bg.jpg);
+        background: url(../images/bg.jpg) no-repeat center center/cover;
     }
 
     h1, h2, h3 {
         font-family: 'Roboto', sans-serif;
         letter-spacing: 2px;
-        color: #2e2e2e;
+        font-size: 2em;
     }
 
 /* header */
@@ -99,18 +99,32 @@
         height: 145px;
         width:145px;
         background: url(../images/logo\ 1.png) no-repeat center center/cover;
-        float:right;
         background-color: rgba(255, 255, 255, .5);
         z-index: 41;
     }
      
 /* Main */
     main{
-        margin-top: 165px;
-        background-color: #f15820;
+        margin-top: 200px;
+        width: 100%;
+        position: fixed;
+        /* border box */
+        border: hidden;
+        border-radius: 3px;
+        background-color: rgba(4, 131, 130, .9);
         /* Enable flex properties for child elements */
         display: flex;
         flex-direction: column;
+        color:#fafafa;
+    }
+
+    #intro{
+        padding:10px;
+        flex-wrap: wrap;
+        flex-flow: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
 /* Footer */
