@@ -93,22 +93,65 @@
             padding-left: 2.2rem;
         }
 
-    /* logo in navbar */
-        #logo{
-            margin: 10px;
-            height: 145px;
-            width:145px;
-            background: url(../images/logo\ 1.png) no-repeat center center/cover;
-            float:right;
-            background-color: rgba(255, 255, 255, .5);
-            z-index: 41;
-        }
+ /* logo in navbar */
+    #logo{
+        margin: 10px;
+        height: 145px;
+        width:145px;
+        background: url(../images/logo\ 1.png) no-repeat center center/cover;
+        float:right;
+        background-color: rgba(255, 255, 255, .5);
+        z-index: 41;
+    }
      
 /* Main */
-        main{
-            margin-top:170px;
-        }
+    main{
+        margin-top: 165px;
+        background-color: #f15820;
+        /* Enable flex properties for child elements */
+        display: flex;
+        flex-direction: column;
+    }
+
 /* Footer */
+    footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, .8);
+        color: #bd1a21;
+        justify-content: center;
+    }
+    
+    footer a{
+        align-self: center;
+    }
+
+        #logo-dc-wers{
+            padding: 10px 20px;
+            width: 304px;
+        }
+
+        #social {
+            padding: 10px 0;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            align-items: baseline;
+        }
+        
+        #social li {
+            padding: 0 20px;
+        }
+
+        #social a{
+            font-size: 200%;
+            color:	inherit;
+        }
 
 /* Contact form */
 
@@ -143,5 +186,28 @@
         width: 120px;
         margin: 20px;
     }
+    /* footer */
 
+    footer{ 
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+    }
+ 
+    #logo-dc-wers{
+        display: inline-flex;
+     }
+
+     #social{
+        display: inline-flex;
+     }
+}
+
+/* large devices (laptops and desktops 992px and up) */
+@media screen and (min-width: 992px) {
+    #logo{
+        height:100px;
+        width: 100px;
+        margin: 20px;
+    }
 }
