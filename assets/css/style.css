@@ -27,16 +27,16 @@
 /* header */
     header{
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
         align-items:baseline;
         padding: 0 1rem;
         position: fixed;
         z-index: 42;
         width: 100%;
-        box-shadow: 0 1px 1px #2e2e2e;
+        box-shadow: 0 1px 4px #f15820;
     }
 
-    header a{
+    nav a{
         text-decoration: none;
         color: inherit;
     }
@@ -46,10 +46,13 @@
         font-family: 'Roboto', sans-serif;
         list-style-type: none;
         letter-spacing: 3px;
+        width:fit-content;
     }
 
     #menu > li {
         margin-bottom: .7em;
+        padding-left: 5px
+        
     }
     
     #menu > li:hover{
@@ -63,12 +66,15 @@
 
 /* Navbar styles w/ dropdown toggle */
     nav{
+        align-content: flex-start;
         position: absolute;
-        background-color: #fafafa;
+        background-color: #fff;
         width: 100%;
+        height:180px;
         left: 0%;
         padding: 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
+        box-shadow: 0 1px 4px #f15820;
+        display: none;
         top: 100%;
     }
 
@@ -80,18 +86,20 @@
         #nav-toggle{
             display: none;
         }
+
         .nav-toggle-label{
-            font-size: 2rem;
+            font-size: 4rem;
         }
 
     /* logo in navbar */
         #logo{
-            margin-top: -117px;
+            margin: 10px;
             height: 160px;
             width:160px;
             background: url(../images/logo\ 1.png) no-repeat center center/cover;
             float:right;
             background-color: #fff;
+            z-index: 41;
         }
 /* Main */
 
