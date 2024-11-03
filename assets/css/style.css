@@ -79,8 +79,10 @@
     }
 
     /* nav toggle */
+
         #nav-toggle:checked~nav{
             display: block;
+            background-color: rgba(255, 255, 255, .9);
         }
 
         #nav-toggle{
@@ -88,7 +90,7 @@
         }
 
         .nav-toggle-label{
-            font-size: 4rem;
+            font-size: 2rem;
             align-self: center;
             padding-left: 2.2rem;
         }
@@ -96,8 +98,8 @@
  /* logo in navbar */
     #logo{
         margin: 10px;
-        height: 145px;
-        width:145px;
+        height: 120px;
+        width:120px;
         background: url(../images/logo\ 1.png) no-repeat center center/cover;
         background-color: rgba(255, 255, 255, .5);
         z-index: 41;
@@ -171,57 +173,63 @@
 
 /* Media Queries */
 
-@media screen and (min-width: 768px) {
-    /* header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-left: 2rem;
-        align-self:auto;
+    /* media queries for large or landscape phones (576px and up) */
+    @media screen and (min-width: 576px) {
+        /* header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-left: 2rem;
+            align-self:auto;
+        }
+
+        #menu {
+            display: flex;
+        }
+
+        #menu > li {
+            padding-right: 2.5rem;
+            padding-left: 2.5rem;
+            font-weight: 500;
+        }
+
+        .nav-toggle-label{
+            display: none;
+        }
+        #logo{
+            height:100px;
+            width: 100px;
+            margin: 15px;
+        }
+        /* footer */
+
+        footer{ 
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+    
+        #logo-dc-wers{
+            display: inline-flex;
+        }
+
+        #social{
+            display: inline-flex;
+        }
     }
 
-    #menu {
-        display: flex;
+    /* media queries for tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
+
     }
 
-    #menu > li {
-        padding-right: 3rem;
-        padding-left: 3rem;
-        font-weight: 500;
+    /* large devices (laptops and desktops 992px and up) */
+    @media screen and (min-width: 992px) {
+        #logo{
+            height:100px;
+            width: 100px;
+            margin: 20px;
+        }
     }
-
-    .nav-toggle-label{
-        display: none;
-    }
-    #logo{
-        height:120px;
-        width: 120px;
-        margin: 20px;
-    }
-    /* footer */
-
-    footer{ 
-        display: flex;
-        flex-direction: row;
-        gap: 150px;
-    }
- 
-    #logo-dc-wers{
-        display: inline-flex;
-     }
-
-     #social{
-        display: inline-flex;
-     }
-}
-
-/* large devices (laptops and desktops 992px and up) */
-@media screen and (min-width: 992px) {
-    #logo{
-        height:100px;
-        width: 100px;
-        margin: 20px;
-    }
-}
