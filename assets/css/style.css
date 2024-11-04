@@ -135,7 +135,7 @@
 
 /* Footer */
     footer{
-        /* [place on bottom */
+        /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
         width: 100%;
         position: sticky;
         bottom: 0;
@@ -155,6 +155,7 @@
         #logo-dc-wers{
             padding: 10px 20px;
             width: 304px;
+            /* makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
             filter:invert(1);
         }
 
