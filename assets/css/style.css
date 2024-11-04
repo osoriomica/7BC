@@ -22,8 +22,9 @@
 
     h1, h2, h3 {
         font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
         font-size: 2em;
+        letter-spacing: -.75px;
+        text-transform: uppercase;
     }
 
 /* header */
@@ -198,8 +199,13 @@
     padding: 0 5px;
     margin: 5px 0 20px 0;
 }
+
+#comments{
+    padding-top: 3rem;
+}
 .submit-button{
-    margin-top: 20px;
+    margin-top: 5px;
+    float: inline-end;
     padding: 15px 32px 15px 32px;
     box-shadow: 0 1px 2px #bd1a21;
     border-radius: 3px;
@@ -211,12 +217,14 @@
 .submit-button:focus{
     font-weight: 900;
     color: #ffffff;
-    background-color: #f7981c
+    background-color: #f7981c;
+    box-shadow: 0 1px 2px #f7981c;
 }
 .submit-button:hover{
     font-weight: 900;
     color: #ffffff;
     background-color: #f7981c;
+    box-shadow: 0 1px 2px #f7981c;
 }
 
 /* Media Queries */
@@ -270,18 +278,22 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
+        /* main */
+        main{
+            margin-top: 150px;
+        }
         /* contact form */
         #contact{
             background-position: center;
             position: relative;
-            min-height: 75vh;
+            min-height: 70vh;
         }
 
         #contact-form{
             position: absolute;
-            top: 4rem;
-            left: 5%;
-            max-width: 500px;
+            top: 1.9rem;
+            left: 2%;
+            max-width: 535px;
         }
 
     }
