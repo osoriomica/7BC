@@ -173,7 +173,7 @@
 #contact{
     background-image: url(../images/image04.jpg);
     background-size: cover;
-    background-position: 50%;
+    background-position: 60%;
     flex-grow: 1;
     padding: 35px 10px 0 10px;
 }
@@ -230,7 +230,7 @@
             box-shadow: none;
             width: fit-content;
             padding-left: 2rem;
-            align-self:auto;
+            align-self:last baseline;
         }
 
         #menu {
@@ -270,6 +270,19 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
+        /* contact form */
+        #contact{
+            background-position: center;
+            position: relative;
+            min-height: 75vh;
+        }
+
+        #contact-form{
+            position: absolute;
+            top: 4rem;
+            left: 5%;
+            max-width: 500px;
+        }
 
     }
 
