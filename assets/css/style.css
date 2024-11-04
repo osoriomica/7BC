@@ -170,6 +170,54 @@
         }
 
 /* Contact form */
+#contact{
+    background-image: url(../images/image04.jpg);
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 1;
+    padding: 35px 10px 0 10px;
+}
+
+#contact-form{
+    color: #ffffff;
+    background-color: rgba(4, 131, 130, .9);
+    padding: 30px;
+}
+#signup-form h2{
+    color: #fafafa;
+    margin-bottom: 2rem;
+}
+
+.text-input{
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height:2rem;
+    width:100%;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+.submit-button{
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    box-shadow: 0 1px 2px #bd1a21;
+    border-radius: 3px;
+    background-color: #bd1a21;
+    color: #fafafa;
+    font-size: 100%;
+    font-weight: 700;
+}
+.submit-button:focus{
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #f7981c
+}
+.submit-button:hover{
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #f7981c;
+}
 
 /* Media Queries */
 
