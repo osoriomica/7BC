@@ -112,7 +112,6 @@
         z-index: 1;    
         /* Enable flex properties for child elements */
         display: flex;
-        flex-direction: column;
         color:#fafafa;
           /* Background image*/
         background: url(../images/bg.jpg) no-repeat center center/cover;
@@ -151,14 +150,13 @@
     footer a{
         align-self: center;
     }
-
+        /* Footer contents */
         #logo-dc-wers{
             padding: 10px 20px;
             width: 304px;
             /* makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
             filter:invert(1);
         }
-
         #social {
             padding: 10px 0;
             flex-direction: row;
@@ -167,18 +165,17 @@
             list-style-type: none;
             align-items: baseline;
         }
-        
         #social li {
             padding: 0 20px;
         }
-
         #social a{
             font-size: 200%;
-            color:	inherit;
+            color: inherit;
         }
 
 /* Contact form */
 #contact{
+    margin-top: 140px;
     background-image: url(../images/image04.jpg);
     background-size: cover;
     background-position: 60%;
@@ -189,11 +186,9 @@
 #contact-form{
     color: #ffffff;
     background-color: rgba(4, 131, 130, .9);
-    padding: 30px;
-}
-#signup-form h2{
-    color: #fafafa;
-    margin-bottom: 2rem;
+    padding: 2rem;
+    position: relative;
+    margin-top: 4rem;
 }
 
 .text-input{
@@ -206,13 +201,18 @@
     padding: 0 5px;
     margin: 5px 0 20px 0;
 }
+.text-input:focus{
+    background: rgba(255, 255, 255, .8);
+    color: #2e2e2e;
+}
 
 #comments{
-    padding-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
+
 .submit-button{
     margin-top: 5px;
-    float: inline-end;
     padding: 15px 32px 15px 32px;
     box-shadow: 0 1px 2px #bd1a21;
     border-radius: 3px;
@@ -244,7 +244,7 @@
             position: relative;
             box-shadow: none;
             width: fit-content;
-            padding-left: 2rem;
+            padding-left: 1rem;
             align-self:last baseline;
         }
 
@@ -253,8 +253,8 @@
         }
 
         #menu > li {
-            padding-right: 2.5rem;
-            padding-left: 2.5rem;
+            padding-right: 2rem;
+            padding-left: 2rem;
             font-weight: 500;
         }
 
@@ -266,15 +266,13 @@
             width: 100px;
             margin: 15px;
         }
-
         /* contact form */
         #contact{
-            margin-top: 140px;
+            margin-top: 130px;
             background-position: center;
             position: relative;
-            min-height: 50vh;
         }
-
+        
         /* footer */
         footer{ 
             display: flex;
@@ -293,21 +291,17 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
-        
+
         /* contact form */
         #contact{
-            margin-top: 140px;
+            margin-top: 130px;
             background-position: center;
             position: relative;
-            min-height: 50vh;
         }
-
         #contact-form{
-            position: absolute;
-            top: 1.9rem;
             left: 2%;
-            max-width: 535px;
-            min-width: 300px;
+            margin-top: 4rem;
+            max-width: 600px;
         }
 
     }
