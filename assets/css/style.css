@@ -119,7 +119,7 @@
         background-color: #ffffff;
     }
 
-    #intro{
+    .text-box{
         margin-top: 160px;
         padding: 2rem;
         flex-wrap: wrap;
@@ -264,8 +264,16 @@
             width: 100px;
             margin: 15px;
         }
-        /* footer */
 
+        /* contact form */
+        #contact{
+            margin-top: 140px;
+            background-position: center;
+            position: relative;
+            min-height: 50vh;
+        }
+
+        /* footer */
         footer{ 
             display: flex;
             flex-direction: row;
@@ -283,15 +291,13 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
-        /* main */
-        main{
-            margin-top: 150px;
-        }
+        
         /* contact form */
         #contact{
+            margin-top: 140px;
             background-position: center;
             position: relative;
-            min-height: 70vh;
+            min-height: 50vh;
         }
 
         #contact-form{
@@ -299,15 +305,12 @@
             top: 1.9rem;
             left: 2%;
             max-width: 535px;
+            min-width: 300px;
         }
 
     }
 
     /* large devices (laptops and desktops 992px and up) */
     @media screen and (min-width: 992px) {
-        #logo{
-            height:100px;
-            width: 100px;
-            margin: 20px;
-        }
+
     }
