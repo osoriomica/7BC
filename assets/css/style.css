@@ -110,7 +110,7 @@
         background-color: #ffffff;
     }
     .text-box{
-        margin-top: 160px;
+        /* margin-top: 160px; */
         padding: 2rem;
         flex-wrap: wrap;
         flex-flow: column;
@@ -123,7 +123,25 @@
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
-
+/* About Us */
+/* hero image and text */
+#hero{
+    margin-top: 160px;
+    height: 300px;
+    width: 100%;
+    background: url(../images/image07.jpg) no-repeat center center/cover;
+    position: relative;
+}
+#hero-text{
+    background-color: rgba(4, 131, 130, .8);
+    font: 130%;
+    position: absolute;
+    top: 30px;
+    width: 80%;
+    min-height: 3rem;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 /* Footer */
     footer{
         /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
@@ -250,23 +268,33 @@
             width: 100px;
             margin: 15px;
         }
+
+    /* Home */
+        /* hero image and text */
+        #hero{
+            margin-top: 160px;
+            height: 600px;
+            width: 100%;
+            background: url(../images/image07.jpg) no-repeat center center/cover;
+            position: relative;
+        }
+        #hero-text{
+            background-color: rgba(4, 131, 130, .8);
+            font: 130%;
+            position: absolute;
+            top: 30px;
+            width: 80%;
+            min-height: 3rem;
+            padding-top: 40px;
+            padding-left: 10px;
+        }
+
         /* About us */
         #about-us{
             display: flex;
             flex-direction: row;
         }
-        .text-box{
-            margin-top: 160px;
-            padding: 2rem;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            flex-grow: 2;
-            /* border box */
-            border: hidden;
-            border-radius: 3px;
-            background-color: rgba(4, 131, 130, .9);
-        }
+
         /* contact form */
         #contact{
             margin-top: 130px;
