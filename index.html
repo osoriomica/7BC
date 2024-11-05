@@ -39,21 +39,27 @@
 
     <!-- main content -->
     <main>
-        <section class="sections-placement">
-        <div id="hero">
-            <div id="hero-text">
-                <h2>FOOD. CONVERSATION. ART.</h2>
+        <section class="sections">
+            <div id="hero">
+                <div id="hero-text">
+                    <h2>FOOD. CONVERSATION. ART.</h2>
+                </div>
             </div>
-        </div>
             <div class="text-box half">
-            <h3>The inspiration behind our menu</h3>
-            <hr>
-            <p>At The Seven Bridges, we collaborate with volunteers from the West End Regugee Service, to create unique
-                dishes that celebrate their diverse cultures and culinary traditions.</p>
-            <p>Our apporach is rooted in mutual respect and learning, where volunteers take the lead in sharing recipes
-                from their homeland.</p>
-            <p>In return, we share our expertise, ranging from knife skills & customer service, to crafting the perfect
-                cup of coffee!</p>
+                <h3>The heart of our menu</h3>
+                <hr>
+                <p>At The Seven Bridges, we collaborate with volunteers from the West End Regugee Service, to create
+                    unique
+                    dishes that celebrate their diverse cultures and culinary traditions.</p>
+                <p>Our approach is rooted in mutual respect and learning, where volunteers take the lead in sharing
+                    recipes
+                    from their homeland.</p>
+                <p>In return, we share our expertise, ranging from knife skills & customer service, to crafting the
+                    perfect
+                    cup of coffee!</p>
+            </div>
+            <div id="opening-image">
+                <div id="cover-bg"></div>
             </div>
             <div class="text-box third">
                 <h3>Opening Times</h3>
@@ -68,10 +74,9 @@
                 </ul>
                 <p><em>Our kitchen is open 11 - 3 Tuesday - Saturday</em></p>
             </div>
-            <div id="opening-image">
-                <div id="circle-cover-bg"></div>
             </div>
         </section>
+        <div></div>
 
     </main>
 
@@ -84,7 +89,7 @@
             <li><a href="https://deliveroo.co.uk/menu/Newcastle/newcastle-city-centre/dance-city-cafe-the-seven-bridges-dance-city-temple-street?geohash=gcybs0jprkcr&msockid=27a10f4ed1276d5b3e281b53d00a6cbc"
                     target="_blank" rel="noopener"
                     aria-label="Order online from The Seven Bridges cafe on Deliveroo. Opens in a new tab"><img
-                    src="assets/images/deliveroo-svgrepo-com-32px.png" alt="deliveroo icon"></a></li>
+                        src="assets/images/deliveroo-svgrepo-com-32px.png" alt="deliveroo icon"></a></li>
             <li><a href="https://www.facebook.com/7bbridgescafe/" target="_blank" rel="noopener"
                     aria-label="visit The Seven Bridges facebook page. Opens in a new tab"><i
                         class="fa-brands fa-facebook"></i></a></li>
@@ -98,9 +103,9 @@
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/12379e440c.js" crossorigin="anonymous"></script>
     <!-- Hide navbar on scrolling -->
-     <script>
+    <script>
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
+        window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navbar").style.top = "0";
