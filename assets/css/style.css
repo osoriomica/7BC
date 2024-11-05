@@ -29,10 +29,11 @@
         justify-content:space-between;
         align-items:center;
         position: fixed;
-        z-index: 42;
+        z-index: 2; 
         width: 100%;
         box-shadow: 0 1px 4px #f15820;
         background-color: rgba(255, 255, 255, .8);
+        transition: top 0.3s; /* Transition effect when sliding down (and up) https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
     }
     nav a{
         text-decoration: none;
@@ -84,14 +85,12 @@
             align-self: center;
             padding-left: 2.2rem;
         }
-
- /* logo in navbar */
+ /* logo in header */
     #logo{
         margin: 10px;
         height: 120px;
         width:120px;
-        background: url(../images/logo\ 1.png) no-repeat center center/cover;
-        z-index: 41;
+        background: url(../images/logo7bc.png) no-repeat center center/cover;
     }
      
 /* Main */
