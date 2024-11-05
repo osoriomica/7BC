@@ -109,15 +109,18 @@
         background: url(../images/bg.jpg) no-repeat center center/cover;
         background-color: #ffffff;
     }
+    .sections-placement{
+        margin-top: 160px;
+
+    }
     .text-box{
-        /* margin-top: 160px; */
         padding: 2rem;
         flex-wrap: wrap;
         flex-flow: column;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
-        flex-grow: 1;
+        flex-grow: 2;
         /* border box */
         border: hidden;
         border-radius: 3px;
@@ -131,6 +134,7 @@
     width: 100%;
     background: url(../images/image07.jpg) no-repeat center center/cover;
     position: relative;
+    margin-bottom: 20px;
 }
 #hero-text{
     background-color: rgba(4, 131, 130, .8);
@@ -272,7 +276,6 @@
     /* Home */
         /* hero image and text */
         #hero{
-            margin-top: 160px;
             height: 600px;
             width: 100%;
             background: url(../images/image07.jpg) no-repeat center center/cover;
