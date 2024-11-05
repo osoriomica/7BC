@@ -126,12 +126,12 @@
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
+
 /* About Us */
 /* hero image and text */
 #hero{
-    margin-top: 160px;
     height: 300px;
-    width: 100%;
+    width: 100vw;
     background: url(../images/image07.jpg) no-repeat center center/cover;
     position: relative;
     margin-bottom: 20px;
@@ -272,14 +272,11 @@
             width: 100px;
             margin: 15px;
         }
-
+       
     /* Home */
         /* hero image and text */
         #hero{
             height: 600px;
-            width: 100%;
-            background: url(../images/image07.jpg) no-repeat center center/cover;
-            position: relative;
         }
         #hero-text{
             background-color: rgba(4, 131, 130, .8);
