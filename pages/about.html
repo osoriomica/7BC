@@ -19,7 +19,7 @@
 
 <body>
     <!-- Header : navbar and logo -->
-    <header>
+    <header id="navbar">
         <!-- toggle nav using css from code institute's tutorial on a horizontal navbar-->
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -93,6 +93,19 @@
 
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/12379e440c.js" crossorigin="anonymous"></script>
+    <!-- Hide navbar on scrolling -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-140px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 </body>
 
 </html>
