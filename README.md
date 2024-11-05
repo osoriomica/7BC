@@ -20,7 +20,7 @@ This project is used by the following users:
     Dance City offers dance classes throughout the week and many of the students are young people who would be accompanied by their parents. On Sunday mornings, there's a Spanish language club with multiple groups or different ages and levels who come to class. The parents are welcomed to wait for the children inside The Seven Bridges cafe.
     Their use of the website: finding about the menu, seasonal dishes, events, opening times, car park suggestions, how to find the cafe.
 - Potential Volunteers
-    contact form, access social media channels to get inspiration and be inspired to joing the projet. Learn about The Seven Bridges cafe (about) and the West End Refugee Services (WERS. Working in partnership with Dance City to create the project). 
+    contact form, access social media channels to get inspiration and be inspired to joing the projet. Learn about The Seven Bridges (about) and the West End Refugee Service (WERS. Working in partnership with Dance City to create the project). 
 
   
 
@@ -63,12 +63,21 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
+## Validation
+The site was first checked for validation on 5 Nov 2024. It passed the validator checks both on HTML and CSS.
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 
 ## Related
 
 Here are some related projects:
 
-- [West End Refugee Services - WERS](https://www.wers.org.uk/)
+- [West End Refugee Service - WERS](https://www.wers.org.uk/)
 - [Dance City](https://https://www.dancecity.co.uk/)
 

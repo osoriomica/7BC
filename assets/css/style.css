@@ -16,11 +16,20 @@
         color:#2e2e2e;
         font-family: 'Roboto', sans-serif;
     }
-    h1, h2, h3 {
+    h1, h2 {
         font-family: 'Roboto', sans-serif;
         font-size: 2em;
         letter-spacing: -.75px;
         text-transform: uppercase;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        letter-spacing: -.75px;
+        text-transform: uppercase;
+    }
+    hr{
+        margin-bottom: 1rem;
     }
 
 /* header */
