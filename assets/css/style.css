@@ -250,6 +250,23 @@
             width: 100px;
             margin: 15px;
         }
+        /* About us */
+        #about-us{
+            display: flex;
+            flex-direction: row;
+        }
+        .text-box{
+            margin-top: 160px;
+            padding: 2rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            flex-grow: 2;
+            /* border box */
+            border: hidden;
+            border-radius: 3px;
+            background-color: rgba(4, 131, 130, .9);
+        }
         /* contact form */
         #contact{
             margin-top: 130px;
