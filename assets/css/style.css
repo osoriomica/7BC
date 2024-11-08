@@ -116,12 +116,13 @@
         background-color: #ffffff;
     }
     .flex-container{
-        /* Enable flex properties for child elements */
+        /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .flex-container > div{
-        padding: 2rem;
+        padding: 1.5rem;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
@@ -129,6 +130,9 @@
         border: hidden;
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
+    }
+    .grow-3{
+        flex-grow: 3;
     }
 
     /* opening  times image in homepage */
