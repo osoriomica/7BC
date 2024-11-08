@@ -110,45 +110,43 @@
         width: 100%;
         position: relative;
         z-index: 1;    
-        /* Enable flex properties for child elements */
-        display: flex;
         color:#fafafa;
           /* Background image*/
         background: url(../images/bg.jpg) no-repeat center center/cover;
         background-color: #ffffff;
     }
-    .sections{
-        margin-top: 160px;
+    .flex-container{
+        /* Enable flex properties for child elements */
+        display: flex;
+        flex-direction: column;
     }
-    .text-box{
+    .flex-container > div{
         padding: 2rem;
-        flex-wrap: wrap;
-        flex-flow: column;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
-        flex-grow: 2;
         /* border box */
         border: hidden;
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
+
     /* opening  times image in homepage */
     #cover-bg{
         background: url(../images/space1.jpg) no-repeat top center / cover;
         height: 300px;
-        width: 330px;
-        margin-bottom: 20px;
+        width: 100%;
         background-position: 75%;
     }
     #opening-image{
         display: flex;
-        align-items: last baseline;
+        align-items: center;
         justify-content: center;
     }
-    /* About Us */
+    
     /* hero image and text */
     #hero{
+        margin-top: 160px;
         height: 300px;
         width: 100vw;
         background: url(../images/image07.jpg) no-repeat center center/cover;
@@ -264,7 +262,7 @@
 
 /* Media Queries */
 
-    /* media queries for large or landscape phones (576px and up) */
+    /* media queries for large phones or landscape screens (576px and up) */
     @media screen and (min-width: 576px) {
         /* header */
         nav {
@@ -292,7 +290,7 @@
             margin: 15px;
         }
        
-    /* Home */
+        /* Home */
         /* hero image and text */
         #hero{
             height: 600px;
@@ -337,6 +335,10 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
+        /* Main sections */
+        .flex-container{
+            flex-direction: row;
+        }
 
         /* contact form */
         #contact{
@@ -347,6 +349,11 @@
         #contact-form{
             left: 2%;
             margin-top: 4rem;
+        }
+        /* Opening image on Index */
+          #cover-bg{
+            height: 300px;
+            width: 330px;
         }
     }
 
