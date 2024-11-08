@@ -125,15 +125,15 @@
         padding: 1.5rem;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         /* border box */
         border: hidden;
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
-    .grow-3{
-        flex-grow: 3;
-    }
+    /* .grow-3{
+        flex-grow: ;
+    } */
 
     /* opening  times image in homepage */
     #cover-bg{
@@ -167,6 +167,12 @@
         padding-top: 40px;
         padding-left: 10px;
     }
+
+    /* About us */
+    #about-us{
+        margin-top: 150px;
+    }
+
     /* Footer */
     footer{
         /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
@@ -184,7 +190,7 @@
     footer a{
         align-self: center;
     }
-        /* Footer contents */
+    /* Footer contents */
         #logo-dc-wers{
             padding: 10px 20px;
             width: 304px;
@@ -312,8 +318,7 @@
 
         /* About us */
         #about-us{
-            display: flex;
-            flex-direction: row;
+            margin-top: 140px;
         }
 
         /* contact form */
