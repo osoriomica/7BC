@@ -21,14 +21,13 @@
         font-size: 2em;
         letter-spacing: -.75px;
         text-transform: uppercase;
+        margin-bottom: 1rem;
     }
     h3{
         font-family: 'Roboto', sans-serif;
         font-size: 1.3em;
         letter-spacing: -.75px;
         text-transform: uppercase;
-    }
-    hr{
         margin-bottom: 1rem;
     }
 
@@ -135,7 +134,10 @@
         flex-grow: ;
     } */
 
-    /* opening  times image in homepage */
+    /* opening times and image in index.html */
+    #opening-times li{
+        list-style-type: none;
+    }
     #cover-bg{
         background: url(../images/space1.jpg) no-repeat top center / cover;
         height: 300px;
@@ -147,7 +149,6 @@
         align-items: center;
         justify-content: center;
     }
-    
     /* hero image and text */
     #hero{
         margin-top: 160px;
