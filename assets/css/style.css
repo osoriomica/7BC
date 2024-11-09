@@ -41,7 +41,7 @@
         z-index: 2; 
         width: 100%;
         box-shadow: 0 1px 4px #f15820;
-        background-color: rgba(255, 255, 255, .8);
+        background-color: rgba(255, 255, 255, .9);
         transition: top 0.3s; /* Transition effect when sliding down (and up) https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
     }
     nav a{
@@ -158,7 +158,7 @@
         margin-bottom: 20px;
     }
     #hero-text{
-        background-color: rgba(4, 131, 130, .8);
+        background-color: rgba(4, 131, 130, .9);
         font: 130%;
         position: absolute;
         top: 30px;
@@ -169,7 +169,7 @@
     }
 
     /* About us */
-    #about-us{
+    .clear{
         margin-top: 150px;
     }
 
@@ -240,7 +240,7 @@
         margin: 5px 0 20px 0;
     }
     .text-input:focus{
-        background: rgba(255, 255, 255, .8);
+        background: rgba(255, 255, 255, .9);
         color: #2e2e2e;
     }
     #comments{
@@ -264,6 +264,55 @@
         box-shadow: 0 1px 2px #f7981c;
     }
     .submit-button:hover{
+        font-weight: 900;
+        color: #ffffff;
+        background-color: #f7981c;
+        box-shadow: 0 1px 2px #f7981c;
+    }
+
+    /* thank you page */
+    .thank-you{
+        margin-top: 200px;
+        text-align: center;
+        /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .thank-you > div{
+        padding: 3rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        /* border box */
+        border: hidden;
+        border-radius: 3px;
+        background-color: rgba(4, 131, 130, .9);
+    }
+    .home-button{
+        margin-top: 5px;
+        padding: 15px 32px 15px 32px;
+        box-shadow: 0 1px 2px #bd1a21;
+        border-radius: 3px;
+        background-color: #bd1a21;
+        color: #fafafa;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    .home-button a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .home-button:focus{
+        font-weight: 900;
+        color: #ffffff;
+        background-color: #f7981c;
+        box-shadow: 0 1px 2px #f7981c;
+    }
+    .home-button:hover{
         font-weight: 900;
         color: #ffffff;
         background-color: #f7981c;
@@ -306,7 +355,7 @@
             height: 600px;
         }
         #hero-text{
-            background-color: rgba(4, 131, 130, .8);
+            background-color: rgba(4, 131, 130, .9);
             font: 130%;
             position: absolute;
             top: 30px;
@@ -317,7 +366,7 @@
         }
 
         /* About us */
-        #about-us{
+        .clear{
             margin-top: 140px;
         }
 
