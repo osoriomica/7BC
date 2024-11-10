@@ -121,20 +121,20 @@
         flex-wrap: wrap;
     }
     .flex-container > div{
-        padding: 1.5rem;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
+        padding: 1.3rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+        margin-bottom: 1rem;
         /* border box */
         border: hidden;
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
-    /* .grow-3{
-        flex-grow: ;
-    } */
 
     /* opening times and image in index.html */
+    #opening-times {
+        text-align: center;
+    }
     #opening-times li{
         list-style-type: none;
     }
@@ -168,7 +168,16 @@
         padding-top: 40px;
         padding-left: 10px;
     }
-
+    /* Where to find us - maps and address*/
+    #google-maps iframe{
+        height:300px;
+        left:0;
+    }
+    address i{
+        font-size: 130%;
+        padding-right: .5rem;
+        padding-top: .2rem;
+    }
     /* About us */
     .clear{
         margin-top: 150px;
