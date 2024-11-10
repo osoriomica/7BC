@@ -129,7 +129,14 @@
         border-radius: 3px;
         background-color: rgba(4, 131, 130, .9);
     }
-
+    /* food photos gallery */
+    #food-photos{
+        display: flex;
+        height: 400px;
+    }
+    #food-photos img{
+        width: 20%;
+    }
     /* opening times and image in index.html */
     #opening-times {
         text-align: center;
