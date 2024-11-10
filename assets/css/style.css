@@ -58,7 +58,6 @@
         margin-bottom: .3em;
         padding: 5px;
     }
-    
     #menu > li:hover{
         background-color:rgba(247, 152, 28, 1);
         color: #fafafa;
@@ -168,6 +167,7 @@
         padding-top: 40px;
         padding-left: 10px;
     }
+
     /* Where to find us - maps and address*/
     #google-maps iframe{
         height:300px;
@@ -178,6 +178,7 @@
         padding-right: .5rem;
         padding-top: .2rem;
     }
+
     /* About us */
     .clear{
         margin-top: 150px;
@@ -190,7 +191,7 @@
         position: sticky;
         bottom: 0;
         left: 0;
-
+        /* flex properties */
         display: flex;
         flex-direction: column;
         background-color: #f7981c;
@@ -200,11 +201,12 @@
     footer a{
         align-self: center;
     }
+
     /* Footer contents */
         #logo-dc-wers{
             padding: 10px 20px;
             width: 304px;
-            /* makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
+            /* Makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
             filter:invert(1);
         }
         #social {
@@ -222,6 +224,7 @@
             font-size: 200%;
             color: inherit;
         }
+
 /* Contact form */
     #contact{
         margin-top: 140px;
