@@ -137,14 +137,23 @@
         margin-left: 1.3rem;
         margin-right: 1.3rem;
     }
-    #gallery{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    #food-menu{
         height: 300px;
         width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-bottom: 1rem;
         position: relative;
-        margin-bottom: 20px;
+    }
+    #food-menu img{
+        width:33%;
+        height:50%;
+        object-fit: cover;
+    }
+    #gallery h2{
+        display: none;
     }
    
     /* opening times and image in index.html */
