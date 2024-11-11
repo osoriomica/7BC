@@ -15,6 +15,9 @@
         /* Generic project styles */
         color:#2e2e2e;
         font-family: 'Roboto', sans-serif;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
     }
     h1, h2 {
         font-family: 'Roboto', sans-serif;
