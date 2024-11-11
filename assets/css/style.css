@@ -180,7 +180,7 @@
     }
     .opening-times li{
         list-style-type: none;
-        padding-bottom: 1rem;
+        padding-bottom: .5rem;
     }
     #opening-bg{
         background: url(../images/red-chairs.png) no-repeat left 50%/cover;
@@ -310,12 +310,12 @@
     }
 /* Contact form */
     #contact{
-        margin-top: 140px;
+        margin-top: 160px;
         background-image: url(../images/volunteers.jpg);
         background-size: cover;
         background-position: 60%;
         flex-grow: 1;
-        padding: 35px 10px 0 10px;
+        padding: 35px 10px 10px 10px;
     }
     #contact-form{
         color: #ffffff;
@@ -323,6 +323,7 @@
         padding: 2rem;
         position: relative;
         margin-top: 4rem;
+        margin-bottom: 2rem;
         max-width: 600px;
     }
     .text-input{
@@ -467,10 +468,6 @@
             width:40%;
             margin-right: 0;
         }
-        #opening-bg{
-            max-height: 200px;
-            object-fit: cover;
-        }
         #google-maps{
             width:50%;
             flex-grow: 1;
@@ -497,13 +494,12 @@
         }
         /* contact form */
         #contact{
-            margin-top: 130px;
-            background-position: center;
+            margin-top: 150px;
             position: relative;
         }
         
         /* footer */
-        footer{ 
+        .footer{ 
             display: flex;
             flex-direction: row;
             gap: 150px;
@@ -520,19 +516,9 @@
     @media screen and (min-width: 768px) {
         
         /* contact form */
-        #contact{
-            margin-top: 130px;
-            background-position: center;
-            position: relative;
-        }
         #contact-form{
             left: 2%;
             margin-top: 4rem;
-        }
-        /* Opening image on Index */
-          #cover-bg{
-            height: 300px;
-            width: 330px;
         }
     }
 
@@ -555,10 +541,10 @@
         #pot{
             height: 330px;
         }
-        /* homepage iframe */
+        /* google maps */
         iframe{
+            height:400px;
             width: 100%;
-        }
     }
     /* extra large devices (screens 1800px and up) */
     @media screen and (min-width: 1800px){
