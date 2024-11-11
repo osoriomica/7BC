@@ -234,19 +234,27 @@
 
     /* Footer */
     footer{
+        background-color: #f7981c;
+        color: #fafafa;
         /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
-        width: 100%;
         position: sticky;
-        bottom: 0;
+        bottom: 0p;
         left: 0;
+        width: 100%;
+        
+    } 
+    .footer{
+        max-width: 1800px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         /* flex properties */
         display: flex;
         flex-direction: column;
-        background-color: #f7981c;
-        color: #fafafa;
         justify-content: center;
-    }  
-    footer a{
+        
+    } 
+    .footer a{
         align-self: center;
     }
 
