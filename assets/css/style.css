@@ -350,7 +350,7 @@ footer {
     padding-left: 1rem;
 }
 
-#yellow-dots {
+.yellow-dots {
     background: url(../images/dots.png) no-repeat center center/cover;
     height: 100px;
     width: 100px;
@@ -359,7 +359,6 @@ footer {
 
 /* Contact form */
 #contact {
-    margin-top: 160px;
     background-image: url(../images/volunteers.jpg);
     background-size: cover;
     background-position: 60%;
@@ -415,7 +414,12 @@ footer {
     background-color: #f7981c;
     box-shadow: 0 1px 2px #f7981c;
 }
-
+.yellow-dots-contact {
+    background: url(../images/dots.png) no-repeat center center/cover;
+    height: 100px;
+    width: 100px;
+    margin: 160px auto 1rem;
+}
 /* thank you page */
 .thank-you {
     margin-top: 200px;
@@ -568,7 +572,6 @@ footer {
 
     /* contact form */
     #contact {
-        margin-top: 150px;
         position: relative;
     }
 
@@ -595,6 +598,9 @@ footer {
     #contact-form {
         left: 2%;
         margin-top: 4rem;
+    }
+    #opening-bg {
+        height: 350px;
     }
 }
 
@@ -629,6 +635,10 @@ footer {
     iframe {
         height: 400px;
         width: 100%;
+    }
+    /* about us */
+    #about-img {
+        height: 600px;
     }
 }
 
