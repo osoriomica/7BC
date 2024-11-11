@@ -14,7 +14,7 @@
         flex-direction: column;
         /* Generic project styles */
         color:#2e2e2e;
-        font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Questrial', Verdana, Geneva, Tahoma, sans-serif;
         max-width: 1800px;
         margin-left: auto;
         margin-right: auto;
@@ -34,8 +34,7 @@
         margin-bottom: 1rem;
     }
     p{
-        line-height: 1.2;
-        font-family: 'Questrial', sans-serif;
+        line-height: 1.4;
     }
 
 /* header */
@@ -135,7 +134,7 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .flex-container > div{
+    .flex-container > div, article{
         padding: 1.3rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -299,7 +298,7 @@
     /* About us page */
     #about-us a{
         color: inherit;
-        text-decoration: none;
+        text-decoration:none;
     }
     #about-img {
         background: url(../images/volunteers-group.jpg) no-repeat top center/cover;
@@ -541,6 +540,9 @@
         } 
         h2, h3{
             font-size: 2rem;
+        }
+        p, ul{
+            font-size: larger;
         }
         /* homepage gallery */
         #food-menu{
