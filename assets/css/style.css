@@ -21,14 +21,14 @@
     }
     h1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 2em;
+        font-size: 2.5rem;
         letter-spacing: -.75px;
         text-transform: uppercase;
         margin-bottom: 1rem;
     }
     h3, h2{
         font-family: 'Roboto', sans-serif;
-        font-size: 1.3em;
+        font-size: 1.3rem;
         letter-spacing: -.75px;
         text-transform: uppercase;
         margin-bottom: 1rem;
@@ -46,6 +46,7 @@
         transition: top 0.3s; /* Transition effect when sliding down (and up) https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
     }
     #navbar{
+        /* Constrain size on extra large screens */
         max-width: 1800px;
         width: 100%;
         margin: 0 auto;
@@ -66,7 +67,7 @@
         width:100%;
     }
     #menu > li {
-        margin-bottom: .3em;
+        margin-bottom: .3rem;
         padding: 5px;
     }
     #menu > li:hover{
@@ -132,8 +133,8 @@
     }
     .flex-container > div{
         padding: 1.3rem;
-        margin-left: 1.3rem;
-        margin-right: 1.3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-bottom: 1rem;
         /* border box */
         border: hidden;
@@ -144,9 +145,9 @@
     #pot{
         height: 330px;
         background: url(../images/image09.jpg) no-repeat center center/cover;
-        margin-bottom: 20px;
-        margin-left: 1.3rem;
-        margin-right: 1.3rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     #food-menu{
         height: 300px;
@@ -195,42 +196,49 @@
     /* hero image and text */
     .hero-container{
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 1.3rem;
     }
     #hero{
         margin-top: 160px;
         height: 300px;
         width: 100vw;
         background: url(../images/image07.jpg) no-repeat center center/cover;
+        /* Constrain size on extra large screens */
         margin-left: auto;
         margin-right: auto;
         max-width: 1800px;
     }
     #hero-text{
         background-color: rgba(4, 131, 130, .9);
-        font: 130%;
         position: absolute;
         top: 30px;
         width:70%;
-        min-width: 280px;
+        min-width: 310px;
         min-height: 3rem;
-        padding-top: 40px;
-        padding-left: 1.3rem;
+        padding-top: 30px;
+        padding-left: .5rem;
     }
 
     /* Where to find us - maps and address*/
     #google-maps{
-        text-align: center;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    #google-maps h3, address{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     iframe{
-        height:400px;
-        width: 90%;
-        margin-bottom: 1rem;
+        height:300px;
+        width: 100%;
+        margin-bottom: .5em;
+        border-radius: 3px;
+        align-self: center;
     }
     address i{
-        font-size: 130%;
+        font-size: 100%;
         padding-right: .5rem;
-        padding-top: .4rem;
+        padding-top: .6rem;
     }
 
     /* About us */
@@ -250,6 +258,7 @@
         
     } 
     .footer{
+        /* Constrain size on extra large screens */
         max-width: 1800px;
         width: 100%;
         margin-left: auto;
@@ -430,16 +439,6 @@
         #hero{
             height: 600px;
         }
-        #hero-text{
-            background-color: rgba(4, 131, 130, .9);
-            font: 130%;
-            position: absolute;
-            top: 30px;
-            width: 55%;
-            min-height: 3rem;
-            padding-top: 40px;
-            padding-left: 10px;
-        }
         /* Intro */
         .intro-flex{
             display: flex;
@@ -543,13 +542,10 @@
     @media screen and (min-width: 992px) {
         /* gral */
         h1 {
-            font-size: 4em;
+            font-size: 4rem;
         } 
-        h2{
-            font-size: 2.4em;
-        }
-        h3 {
-            font-size: 1.7em;
+        h2, h3{
+            font-size: 2rem;
         }
         p, ul{
             font-size: 1.3rem;
@@ -561,8 +557,9 @@
         #pot{
             height: 330px;
         }
+        /* homepage iframe */
         iframe{
-            width: 90%;
+            width: 100%;
         }
     }
     /* extra large devices (screens 1800px and up) */
