@@ -121,9 +121,9 @@
         position: relative;
         z-index: 1;    
         color:#fafafa;
-          /* Background image*/
-          background: url(../images/bg.jpg) top right/cover;
-          background-color: #ffffff;
+        /* Background image*/
+        background: url(../images/bg.jpg) top right/cover;
+        background-color: #ffffff;
         }
     .flex-container{
         /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
@@ -144,7 +144,7 @@
     /* food photos gallery */
     #pot{
         height: 330px;
-        background: url(../images/image09.jpg) no-repeat 80% center/cover;
+        background: url(../images/pot.jpg) no-repeat 80% center/cover;
         margin-bottom: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -183,17 +183,13 @@
         padding-bottom: 1rem;
     }
     #opening-bg{
-        background: url(../images/space3.jpeg) no-repeat center center/cover;
-        height: 300px;
+        background: url(../images/red-chairs.png) no-repeat left 50%/cover;
+        height: 250px;
         width: 100%;
         border-radius: 3px;
     }
     #opening-image{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 1rem;
-        
+        margin-top: 2rem;
     }
 
     /* hero image and text */
@@ -205,7 +201,7 @@
         margin-top: 160px;
         height: 300px;
         width: 100vw;
-        background: url(../images/image07.jpg) no-repeat center center/cover;
+        background: url(../images/chicken-shawarma.jpg) no-repeat center center/cover;
         /* Constrain size on extra large screens */
         margin-left: auto;
         margin-right: auto;
@@ -304,7 +300,7 @@
         text-decoration: none;
     }
     #about-img {
-        background: url(../images/image05.jpg) no-repeat top center/cover;
+        background: url(../images/volunteers-group.jpg) no-repeat top center/cover;
         width: 100%;
         height: 440px;
         object-fit: cover;
@@ -315,7 +311,7 @@
 /* Contact form */
     #contact{
         margin-top: 140px;
-        background-image: url(../images/image04.jpg);
+        background-image: url(../images/volunteers.jpg);
         background-size: cover;
         background-position: 60%;
         flex-grow: 1;
