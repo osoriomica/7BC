@@ -12,14 +12,14 @@
     <meta name="description"
         content="The Seven Bridges Café is a joint partnership between Dance City and the West End Refugee Service (WERS). A vibrant and inclusive space that offers great food, promotes diversity, strengthens community connections and offers volunteering placements.">
     <meta name="author" content="The Seven Bridges cafe, Dance City">
-    <title>The Seven Bridges | Contact</title> 
+    <title>The Seven Bridges | Contact</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-     <!-- Header : navbar and logo -->
-     <header id="navbar">
+    <!-- Header : navbar and logo -->
+    <header id="navbar">
         <!-- toggle nav using css from code institute's tutorial on a horizontal navbar-->
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -40,7 +40,10 @@
     <!-- main -->
     <main>
         <section id="contact">
-            <!-- The method should be POST for this type of form; but to emulate the user experience, I've used GET to redirect to a custom Thank You page. -->
+            <!-- 
+            The method should be POST for this type of form, but Github Pages doesn't allow POST requests. 
+            To emulate the intended user experience, I've used GET to redirect to a custom Thank You page. 
+            -->
             <form action="https://osoriomica.github.io/7BC/pages/thankyou.html" method="GET" id="contact-form">
                 <h2>Volunteer. Donate. Get in Touch.</h2>
                 <p>Be our guest, one of our sponsors or part of our staff. Let's connect!</p>
@@ -61,16 +64,18 @@
             </form>
         </section>
     </main>
-    
-  
+
+
     <!-- footer -->
     <footer>
-        <a href="https://www.dancecity.co.uk/" target="_blank" aria-label="Visit Dance City's website"><img src="../assets/images/dc-wers-logo-640.png" alt="Dance City and West End Refugee Services logos" id="logo-dc-wers"></a>
+        <a href="https://www.dancecity.co.uk/" target="_blank" aria-label="Visit Dance City's website"><img
+                src="../assets/images/dc-wers-logo-640.png" alt="Dance City and West End Refugee Services logos"
+                id="logo-dc-wers"></a>
         <ul id="social">
             <li><a href="https://deliveroo.co.uk/menu/Newcastle/newcastle-city-centre/dance-city-cafe-the-seven-bridges-dance-city-temple-street?geohash=gcybs0jprkcr&msockid=27a10f4ed1276d5b3e281b53d00a6cbc"
                     target="_blank" rel="noopener"
                     aria-label="Order online from The Seven Bridges cafe on Deliveroo. Opens in a new tab"><img
-                    src="../assets/images/deliveroo-svgrepo-com-32px.png" alt="deliveroo icon"></a></li>
+                        src="../assets/images/deliveroo-svgrepo-com-32px.png" alt="deliveroo icon"></a></li>
             <li><a href="https://www.facebook.com/7bbridgescafe/" target="_blank" rel="noopener"
                     aria-label="visit The Seven Bridges facebook page. Opens in a new tab"><i
                         class="fa-brands fa-facebook"></i></a></li>
@@ -85,7 +90,7 @@
     <!-- Hide navbar on scrolling -->
     <script>
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
+        window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navbar").style.top = "0";
