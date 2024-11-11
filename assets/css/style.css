@@ -565,3 +565,17 @@
             width: 90%;
         }
     }
+    /* extra large devices (screens 1800px and up) */
+    @media screen and (min-width: 1800px){
+        .flex-container > div{
+            margin-left: 0;
+            margin-right: 0;
+        }
+        #pot{
+            margin-left: 1.3rem;
+            margin-right: 0rem;
+        }
+        #google-maps{
+            margin-left: 1.3rem;
+        }
+    }
