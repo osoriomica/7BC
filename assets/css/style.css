@@ -1,570 +1,650 @@
 /* Google fonts import */
-    @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@400;500;700&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@400;500;700&display=swap');
+
 /* Override default styles added by the browser*/
-    * {
-        padding: 0%;
-        margin: 0%;
-        box-sizing: border-box;
-    }
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
 /* General Styles */
-    body{
-        display: flex;
-        flex-direction: column;
-        /* Generic project styles */
-        color:#2e2e2e;
-        font-family: 'Questrial', Verdana, Geneva, Tahoma, sans-serif;
-        max-width: 1800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    h1 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.5rem;
-        letter-spacing: -.75px;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-    }
-    h3, h2{
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
-        letter-spacing: -.75px;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-    }
-    p{
-        line-height: 1.4;
-    }
+body {
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #2e2e2e;
+    font-family: 'Questrial', Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: -.75px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h3,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -.75px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.4;
+}
 
 /* header */
-    header{
-        top: 0;
-        left: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-        box-shadow: 0 1px 4px #f15820;
-        background-color: rgba(255, 255, 255, .97);
-        transition: top 0.3s; /* Transition effect when sliding down (and up) https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
-    }
-    #navbar{
-        /* Constrain size on extra large screens */
-        max-width: 1800px;
-        width: 100%;
-        margin: 0 auto;
-        /* Flexbox */
-        display: flex;
-        justify-content:space-between;
-        align-items:center;
-    }
-    nav a{
-        text-decoration: none;
-        color: inherit;
-    }
-    #menu{
-        font-size: 130%;
-        font-family: 'Roboto', sans-serif;
-        list-style-type: none;
-        letter-spacing: 3px;
-        width:100%;
-    }
-    #menu > li {
-        margin-bottom: .3rem;
-        padding: 5px;
-    }
-    #menu > li:hover{
-        background-color:rgba(247, 152, 28, 1);
-        color: #fafafa;
-        border:hidden;
-        border-radius: 5px;
-    }
-    .active{
-        font-weight: 700;
-    }
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0 1px 4px #f15820;
+    background-color: rgba(255, 255, 255, .97);
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+}
+
+#navbar {
+    /* Constrain size on extra large screens */
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 130%;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+#menu>li {
+    margin-bottom: .3rem;
+    padding: 5px;
+}
+
+#menu>li:hover {
+    background-color: rgba(247, 152, 28, 1);
+    color: #fafafa;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.active {
+    font-weight: 700;
+}
 
 /* Navbar styles w/ dropdown toggle */
-    nav{
-        align-content: flex-start;
-        position: absolute;
-        width: 100%;
-        left: 0%;
-        box-shadow: 0 1px 4px #f15820;
-        display: none;
-        top: 100%;
-    }
+nav {
+    align-content: flex-start;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    box-shadow: 0 1px 4px #f15820;
+    display: none;
+    top: 100%;
+}
 
-    /* nav toggle */
-        #nav-toggle:checked~nav{
-            display: block;
-            background-color: rgba(255, 255, 255, .9);
-        }
-        #nav-toggle{
-            display: none;
-        }
-        .nav-toggle-label{
-            font-size: 2rem;
-            align-self: center;
-            padding-left: 2.2rem;
-        }
- /* logo in header */
-    #logo{
-        margin: 10px;
-        height: 120px;
-        width:120px;
-        background: url(../images/logo7bc.png) no-repeat center center/cover;
-    }
-     
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    align-self: center;
+    padding-left: 2.2rem;
+}
+
+/* logo in header */
+#logo {
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    background: url(../images/logo7bc.png) no-repeat center center/cover;
+}
+
 /* Main */
-    main{
-        /* Main to cover the screen */
-        min-height:100vh;
-        /* push main under nav */
-        width: 100%;
-        position: relative;
-        z-index: 1;    
-        color:#fafafa;
-        /* Background image*/
-        background: url(../images/bg.jpg) top right/cover;
-        background-color: #ffffff;
-        }
-    .flex-container{
-        /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .flex-container > div, article{
-        padding: 1.3rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
-        /* border box */
-        border: hidden;
-        border-radius: 3px;
-        background-color: rgba(4, 131, 130, .96);
-    }
-    .clear{
-        margin-top: 150px;
-    }
-    /* food photos gallery */
-    #pot{
-        height: 330px;
-        background: url(../images/pot.jpg) no-repeat 80% center/cover;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    #food-menu{
-        height: 300px;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-bottom: 1rem;
-        /* Constrain size on extra large screens */
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1800px;
-    }
-    #food-menu img{
-        width:33.333%;
-        height:50%;
-        object-fit: cover;
-    }
-    #gallery{
-        width: 100%;
-        position: relative;
-    }
-    #gallery h2{
-        display: none;
-    }
-   
-    /* opening times and image in index.html */
-    .opening-times {
-        text-align: center;
-    }
-    .opening-times li{
-        list-style-type: none;
-        padding-bottom: .5rem;
-    }
-    #opening-bg{
-        background: url(../images/red-chairs.png) no-repeat left 50%/cover;
-        height: 250px;
-        width: 100%;
-        border-radius: 3px;
-    }
-    #opening-image{
-        margin-top: 2rem;
-    }
+main {
+    /* Main to cover the screen */
+    min-height: 100vh;
+    /* push main under nav */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fafafa;
+    /* Background image*/
+    background: url(../images/bg.jpg) top right/cover;
+    background-color: #ffffff;
+}
 
-    /* hero image and text */
-    .hero-container{
-        position: relative;
-        margin-bottom: 1.3rem;
-    }
-    #hero{
-        margin-top: 160px;
-        height: 300px;
-        width: 100vw;
-        background: url(../images/chicken-shawarma.jpg) no-repeat center center/cover;
-        /* Constrain size on extra large screens */
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1800px;
-    }
-    #hero-text{
-        background-color: rgba(4, 131, 130, .9);
-        position: absolute;
-        top: 30px;
-        width:70%;
-        min-width: 310px;
-        min-height: 3rem;
-        padding-top: 30px;
-        padding-left: .5rem;
-    }
+.flex-container {
+    /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    /* Where to find us - maps and address*/
-    #google-maps{
-        padding-left: .5rem;
-        padding-right: .5rem;
-    }
-    #google-maps h3, address{
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    iframe{
-        height:300px;
-        width: 100%;
-        margin-bottom: 1.5em;
-        border-radius: 3px;
-        align-self: center;
-    }
-    address i{
-        font-size: 100%;
-        padding-right: .5rem;
-        padding-top: .6rem;
-    }
+.flex-container>div,
+article {
+    padding: 1.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    /* border box */
+    border: hidden;
+    border-radius: 3px;
+    background-color: rgba(4, 131, 130, .96);
+}
 
-    /* Footer */
-    footer{
-        background-color: #f7981c;
-        color: #fafafa;
-        /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
-        position: sticky;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        
-    } 
-    .footer{
-        /* Constrain size on extra large screens */
-        max-width: 1800px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        /* flex properties */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    } 
-    .footer a{
-        align-self: center;
-    }
+.clear {
+    margin-top: 150px;
+}
 
-    /* Footer contents */
-        #logo-dc-wers{
-            padding: 10px 20px;
-            width: 304px;
-            /* Makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
-            filter:invert(1);
-        }
-        #social {
-            padding: 10px 0;
-            flex-direction: row;
-            display: flex;
-            justify-content: center;
-            list-style-type: none;
-            align-items: baseline;
-        }
-        #social li {
-            padding: 0 20px;
-        }
-        #social a{
-            font-size: 200%;
-            color: inherit;
-        }
-    /* About us page */
-    #about-us a{
-        color: inherit;
-        text-decoration:none;
-    }
-    #about-img {
-        background: url(../images/volunteers-group.jpg) no-repeat top center/cover;
-        width: 100%;
-        height: 440px;
-        object-fit: cover;
-    }
-    .volunteer-info >ul{
-        padding-left: 1rem;
-    }
-    #yellow-dots {
-        background: url(../images/dots.png) no-repeat center center/cover;
-        height: 100px;
-        width: 100px;
-        margin: 1.5rem auto;
-    }
+/* food photos gallery */
+#pot {
+    height: 330px;
+    background: url(../images/pot.jpg) no-repeat 80% center/cover;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#food-menu {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+    /* Constrain size on extra large screens */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+}
+
+#food-menu img {
+    width: 33.333%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#gallery {
+    width: 100%;
+    position: relative;
+}
+
+#gallery h2 {
+    display: none;
+}
+
+/* opening times and image in index.html */
+.opening-times {
+    text-align: center;
+}
+
+.opening-times li {
+    list-style-type: none;
+    padding-bottom: .5rem;
+}
+
+#opening-bg {
+    background: url(../images/red-chairs.png) no-repeat left 50%/cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#opening-image {
+    margin-top: 2rem;
+}
+
+/* hero image and text */
+.hero-container {
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+
+#hero {
+    margin-top: 160px;
+    height: 300px;
+    width: 100vw;
+    background: url(../images/chicken-shawarma.jpg) no-repeat center center/cover;
+    /* Constrain size on extra large screens */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+}
+
+#hero-text {
+    background-color: rgba(4, 131, 130, .9);
+    position: absolute;
+    top: 30px;
+    width: 70%;
+    min-width: 310px;
+    min-height: 3rem;
+    padding-top: 30px;
+    padding-left: .5rem;
+}
+
+/* Where to find us - maps and address*/
+#google-maps {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#google-maps h3,
+address {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+iframe {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 1.5em;
+    border-radius: 3px;
+    align-self: center;
+}
+
+address i {
+    font-size: 100%;
+    padding-right: .5rem;
+    padding-top: .6rem;
+}
+
+/* Footer */
+footer {
+    background-color: #f7981c;
+    color: #fafafa;
+    /*  Slideout Footer - Chris Coyier @ CSS TRICKS https://css-tricks.com/the-slideout-footer/ */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.footer {
+    /* Constrain size on extra large screens */
+    max-width: 1800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer a {
+    align-self: center;
+}
+
+/* Footer contents */
+#logo-dc-wers {
+    padding: 10px 20px;
+    width: 304px;
+    /* Makes logo white. Code from https://stackoverflow.com/questions/24224112/css-filter-make-color-image-with- */
+    filter: invert(1);
+}
+
+#social {
+    padding: 10px 0;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: baseline;
+}
+
+#social li {
+    padding: 0 20px;
+}
+
+#social a {
+    font-size: 200%;
+    color: inherit;
+}
+
+/* About us page */
+#about-us a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#about-img {
+    background: url(../images/volunteers-group.jpg) no-repeat top center/cover;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.volunteer-info>ul {
+    padding-left: 1rem;
+}
+
+#yellow-dots {
+    background: url(../images/dots.png) no-repeat center center/cover;
+    height: 100px;
+    width: 100px;
+    margin: 1.5rem auto;
+}
+
 /* Contact form */
-    #contact{
-        margin-top: 160px;
-        background-image: url(../images/volunteers.jpg);
-        background-size: cover;
-        background-position: 60%;
-        flex-grow: 1;
-        padding: 35px 10px 10px 10px;
-    }
-    #contact-form{
-        color: #ffffff;
-        background-color: rgba(4, 131, 130, .96);
-        padding: 2rem;
-        position: relative;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        max-width: 600px;
-    }
-    .text-input{
-        background: transparent;
-        color: #fafafa;
-        border: 1px solid #fafafa;
-        border-radius: 2px;
-        height:2rem;
-        width:100%;
-        padding: 0 5px;
-        margin: 5px 0 20px 0;
-    }
-    .text-input:focus{
-        background: rgba(255, 255, 255, .9);
-        color: #2e2e2e;
-    }
-    #comments{
-        padding-top: 1rem;
-        padding-bottom: 3rem;
-    }
-    .submit-button{
-        margin-top: 5px;
-        padding: 15px 32px 15px 32px;
-        box-shadow: 0 1px 2px #bd1a21;
-        border-radius: 3px;
-        background-color: #bd1a21;
-        color: #fafafa;
-        font-size: 100%;
-        font-weight: 700;
-    }
-    .submit-button:hover{
-        font-weight: 900;
-        color: #ffffff;
-        background-color: #f7981c;
-        box-shadow: 0 1px 2px #f7981c;
-    }
+#contact {
+    margin-top: 160px;
+    background-image: url(../images/volunteers.jpg);
+    background-size: cover;
+    background-position: 60%;
+    flex-grow: 1;
+    padding: 35px 10px 10px 10px;
+}
 
-    /* thank you page */
-    .thank-you{
-        margin-top: 200px;
-        text-align: center;
-        /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(4, 131, 130, .96);
+    padding: 2rem;
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
 
-    }
-    .thank-you > div{
-        padding: 3rem;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        /* border box */
-        border: hidden;
-        border-radius: 3px;
-        background-color: rgba(4, 131, 130, .9);
-    }
-    .home-button{
-        margin-top: 5px;
-        padding: 15px 32px 15px 32px;
-        box-shadow: 0 1px 2px #bd1a21;
-        border-radius: 3px;
-        background-color: #bd1a21;
-        color: #fafafa;
-        font-size: 100%;
-        font-weight: 700;
-    }
-    .home-button a{
-        color: inherit;
-        text-decoration: none;
-    }
-    .home-button:hover{
-        font-weight: 900;
-        color: #ffffff;
-        background-color: #f7981c;
-        box-shadow: 0 1px 2px #f7981c;
-    }
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height: 2rem;
+    width: 100%;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+}
+
+.text-input:focus {
+    background: rgba(255, 255, 255, .9);
+    color: #2e2e2e;
+}
+
+#comments {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.submit-button {
+    margin-top: 5px;
+    padding: 15px 32px 15px 32px;
+    box-shadow: 0 1px 2px #bd1a21;
+    border-radius: 3px;
+    background-color: #bd1a21;
+    color: #fafafa;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.submit-button:hover {
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #f7981c;
+    box-shadow: 0 1px 2px #f7981c;
+}
+
+/* thank you page */
+.thank-you {
+    margin-top: 200px;
+    text-align: center;
+    /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thank-you>div {
+    padding: 3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    /* border box */
+    border: hidden;
+    border-radius: 3px;
+    background-color: rgba(4, 131, 130, .9);
+}
+
+.home-button {
+    margin-top: 5px;
+    padding: 15px 32px 15px 32px;
+    box-shadow: 0 1px 2px #bd1a21;
+    border-radius: 3px;
+    background-color: #bd1a21;
+    color: #fafafa;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.home-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #f7981c;
+    box-shadow: 0 1px 2px #f7981c;
+}
 
 /* Media Queries */
 
-    /* media queries for large phones or landscape screens (576px and up) */
-    @media screen and (min-width: 576px) {
-        /* header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-left: 1rem;
-            align-self:last baseline;
-        }
-        #menu {
-            display: flex;
-        }
-        #menu > li {
-            padding-right: 2rem;
-            padding-left: 2rem;
-            font-weight: 500;
-        }
-        .nav-toggle-label{
-            display: none;
-        }
-        #logo{
-            height:100px;
-            width: 100px;
-            margin: 15px;
-        }
-       
-        /* Home */
-        /* hero image and text */
-        #hero{
-            height: 600px;
-        }
-        /* Intro */
-        .intro-flex{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: space-evenly;
-        }
-        #intro{
-            width: 40%;
-            flex-grow: 1;
-            align-content: center;
-        }
-        #pot{
-            width: 40%;
-            margin-left: 0;
-        }
+/* media queries for large phones or landscape screens (576px and up) */
+@media screen and (min-width: 576px) {
 
-        /* Opening and map */
-        /* aside */
-        .aside{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-content: space-evenly;
-        }
-        .opening-times{
-            width:40%;
-            margin-right: 0;
-        }
-        #google-maps{
-            width:50%;
-            flex-grow: 1;
-            margin-left: 0;
-        }
-        /* About us */
-        .clear{
-            margin-top: 140px;
-        }
-        #about-us{
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
-            align-content: space-evenly;
-        }
-        .left-about{
-            width: 60%;
-            margin-left: 1.3rem;
-        }
-        .volunteer-info{
-            width: 35%;
-            margin-left: 1.3rem;
-            margin-right: 1.3rem;
-        }
-        /* contact form */
-        #contact{
-            margin-top: 150px;
-            position: relative;
-        }
-        
-        /* footer */
-        .footer{ 
-            display: flex;
-            flex-direction: row;
-            gap: 150px;
-        }
-        #logo-dc-wers{
-            display: inline-flex;
-        }
-        #social{
-            display: inline-flex;
-        }
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-left: 1rem;
+        align-self: last baseline;
     }
 
-    /* media queries for tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
-        
-        /* contact form */
-        #contact-form{
-            left: 2%;
-            margin-top: 4rem;
-        }
+    #menu {
+        display: flex;
     }
 
-    /* large devices (laptops and desktops 992px and up) */
-    @media screen and (min-width: 992px) {
-        /* gral */
-        h1 {
-            font-size: 4rem;
-        } 
-        h2, h3{
-            font-size: 2rem;
-        }
-        p, ul{
-            font-size: larger;
-        }
-        /* homepage gallery */
-        #food-menu{
-            height:600px;
-        }
-        #pot{
-            height: 330px;
-        }
-        /* google maps */
-        iframe{
-            height:400px;
-            width: 100%;
-        }
+    #menu>li {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-weight: 500;
     }
-    /* extra large devices (screens 1800px and up) */
-    @media screen and (min-width: 1800px){
-        .flex-container > div{
-            margin-left: 0;
-            margin-right: 0;
-        }
-        #pot{
-            margin-left: 1.3rem;
-            margin-right: 0rem;
-        }
-        #google-maps{
-            margin-left: 1.3rem;
-        }
+
+    .nav-toggle-label {
+        display: none;
     }
+
+    #logo {
+        height: 100px;
+        width: 100px;
+        margin: 15px;
+    }
+
+    /* Home */
+    /* hero image and text */
+    #hero {
+        height: 600px;
+    }
+
+    /* Intro */
+    .intro-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+    }
+
+    #intro {
+        width: 40%;
+        flex-grow: 1;
+        align-content: center;
+    }
+
+    #pot {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    /* Opening and map */
+    /* aside */
+    .aside {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-evenly;
+    }
+
+    .opening-times {
+        width: 40%;
+        margin-right: 0;
+    }
+
+    #google-maps {
+        width: 50%;
+        flex-grow: 1;
+        margin-left: 0;
+    }
+
+    /* About us */
+    .clear {
+        margin-top: 140px;
+    }
+
+    #about-us {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: space-evenly;
+    }
+
+    .left-about {
+        width: 60%;
+        margin-left: 1.3rem;
+    }
+
+    .volunteer-info {
+        width: 35%;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+
+    /* contact form */
+    #contact {
+        margin-top: 150px;
+        position: relative;
+    }
+
+    /* footer */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+    }
+
+    #logo-dc-wers {
+        display: inline-flex;
+    }
+
+    #social {
+        display: inline-flex;
+    }
+}
+
+/* media queries for tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* contact form */
+    #contact-form {
+        left: 2%;
+        margin-top: 4rem;
+    }
+}
+
+/* large devices (laptops and desktops 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* gral */
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2,
+    h3 {
+        font-size: 2rem;
+    }
+
+    p,
+    ul {
+        font-size: larger;
+    }
+
+    /* homepage gallery */
+    #food-menu {
+        height: 600px;
+    }
+
+    #pot {
+        height: 330px;
+    }
+
+    /* google maps */
+    iframe {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+/* extra large devices (screens 1800px and up) */
+@media screen and (min-width: 1800px) {
+    .flex-container>div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #pot {
+        margin-left: 1.3rem;
+        margin-right: 0rem;
+    }
+
+    #google-maps {
+        margin-left: 1.3rem;
+    }
+}
