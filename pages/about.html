@@ -42,22 +42,24 @@
     <!-- main -->
     <main>
         <section id="about-us" class="flex-container clear">
-            <!-- Original copy for this section can be found at https://www.wers.org.uk/7bc. It's been slightly edited for this project to increase readibility. -->
-            <div class="grow-3">
-                <h1>About The Seven Bridges</h1>
-                <p><strong>The Seven Bridges is a joint partnership between Dance City and the West End Refugee Service
-                    (WERS).</strong>
-                    Nested inside a vibrant and inclusive space. The Seven Bridges offers great food, promotes diversity,
-                    strengthens community connections and offers placements to empower volunteers within a supportive environment.</p>
-            </div>
-            <div class="grow-2">
+            <!-- Original copy for this section can be found at https://www.wers.org.uk/7bc. It's been edited slightly for this project to increase readibility. -->
+            <div class="left-about">
+                <h2>About The Seven Bridges</h2>
+                <p><strong>The Seven Bridges is a joint partnership between <a href="https://www.dancecity.co.uk/"
+                            target="_blank" aria-label="Visit Dance City's Website. Opens in a new tab">Dance City</a>
+                        and <a href="https://www.wers.org.uk/" target="_blank"
+                            aria-label="Visit WERS Website. Opens in a new tab">the West End Refugee Service
+                            (WERS)</a>.</strong>
+                    Nested inside a vibrant and inclusive venue. The Seven Bridges offers great food, promotes
+                    diversity, strengthens community connections and offers placements to empower volunteers within a
+                    supportive environment.</p>
                 <p>Collaborating with the Head Chef, the menu is being thoughtfully crafted and updated regularly to
                     highlight the diverse techniques and traditions of our dedicated volunteers.
                     Our aim is to not only showcase their rich culinary contributions but also provide a platform for
                     them to enhance existing skills, acquire new ones and gain valuable experience that serves as a
                     stepping stone towards future employment opportunities.</p>
             </div>
-            <div class="aside">
+            <div class="volunteer-info">
                 <h3>Volunteer through WERS</h3>
                 <p>In this 6-week placement we offer our volunteers the opportunity to:</p>
                 <ul>
@@ -70,6 +72,7 @@
                 <p><strong><a href="../pages/contact.html">Get in touch with us to find out more.</a></strong></p>
             </div>
         </section>
+        <div id="about-img" aria-label="Group photo of original staff at cafe's opening"></div>
     </main>
 
     <!-- footer -->
@@ -96,7 +99,7 @@
     <!-- Hide navbar on scrolling -->
     <script>
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
+        window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navbar").style.top = "0";
