@@ -28,7 +28,7 @@
     }
     h3, h2{
         font-family: 'Roboto', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         letter-spacing: -.75px;
         text-transform: uppercase;
         margin-bottom: 1rem;
@@ -144,7 +144,7 @@
     /* food photos gallery */
     #pot{
         height: 330px;
-        background: url(../images/image09.jpg) no-repeat center center/cover;
+        background: url(../images/image09.jpg) no-repeat 80% center/cover;
         margin-bottom: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -456,7 +456,6 @@
         }
         #pot{
             width: 40%;
-            object-fit: cover;
             margin-left: 0;
         }
 
