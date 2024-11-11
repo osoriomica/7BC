@@ -131,7 +131,7 @@
     }
     /* food photos gallery */
     #pot{
-        height: 300px;
+        height: 330px;
         background: url(../images/image09.jpg) no-repeat center center/cover;
         margin-bottom: 20px;
         margin-left: 1.3rem;
@@ -157,15 +157,15 @@
     }
    
     /* opening times and image in index.html */
-    #opening-times {
+    .opening-times {
         text-align: center;
     }
-    #opening-times li{
+    .opening-times li{
         list-style-type: none;
         padding-bottom: 1rem;
     }
     #opening-bg{
-        background: url(../images/space1.jpg) no-repeat top center / cover;
+        background: url(../images/space3.jpeg) no-repeat center center / cover;
         height: 300px;
         width: 100%;
     }
@@ -174,6 +174,7 @@
         align-items: center;
         justify-content: center;
     }
+
     /* hero image and text */
     #hero{
         margin-top: 160px;
@@ -195,16 +196,18 @@
     }
 
     /* Where to find us - maps and address*/
-
-    #google-maps iframe{
-        height:300px;
-        width: auto;
-        left:0;
+    #google-maps{
+        text-align: center;
+    }
+    iframe{
+        height:400px;
+        width: 90%;
+        margin-bottom: 1rem;
     }
     address i{
         font-size: 130%;
         padding-right: .5rem;
-        padding-top: .2rem;
+        padding-top: .4rem;
     }
 
     /* About us */
@@ -393,6 +396,23 @@
             padding-top: 40px;
             padding-left: 10px;
         }
+        /* Intro */
+        .intro-flex{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-evenly;
+        }
+        #intro{
+            width: 40%;
+            flex-grow: 1;
+        }
+        #pot{
+            width: 40%;
+            object-fit: cover;
+            margin-left: 0;
+        }
+
         /* Opening and map */
         /* aside */
         .aside{
@@ -401,23 +421,18 @@
             flex-direction: row;
             align-content: space-evenly;
         }
-        #opening-times{
+        .opening-times{
             width:40%;
-            margin-left: 1rem;
             margin-right: 0;
         }
         #opening-bg{
-            max-height: 150px;
+            max-height: 200px;
             object-fit: cover;
         }
         #google-maps{
             width:50%;
-            margin-right: 0;
-            text-align: center;
-        }
-        iframe{
-            height: 70%;
-            align-self: center;
+            flex-grow: 1;
+            margin-left: 0;
         }
         /* About us */
         .clear{
@@ -447,15 +462,6 @@
 
     /* media queries for tablets and larger (768px and up) */
     @media screen and (min-width: 768px) {
-        /* Main sections*/
-        main{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        .flex-container{
-            flex-direction: row;
-        }
         
         /* contact form */
         #contact{
@@ -476,5 +482,24 @@
 
     /* large devices (laptops and desktops 992px and up) */
     @media screen and (min-width: 992px) {
-
+        /* gral */
+        h1, h2{
+            font-size: 4em;
+        } 
+        h3 {
+            font-size: 1.6em;
+        }
+        p, ul{
+            font-size: 1.5rem;
+            }
+        /* homepage gallery */
+        #food-menu{
+            height:600px;
+        }
+        #pot{
+            height: 330px;
+        }
+        iframe{
+            width: 90%;
+        }
     }
