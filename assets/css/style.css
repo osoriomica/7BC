@@ -122,9 +122,9 @@
         z-index: 1;    
         color:#fafafa;
           /* Background image*/
-        background: url(../images/bg.jpg) no-repeat center center/cover;
-        background-color: #ffffff;
-    }
+          background: url(../images/bg.jpg) top right/cover;
+          background-color: #ffffff;
+        }
     .flex-container{
         /* Enable flex properties for child elements. Reference used: W3S - CSS Flexbox */
         display: flex;
