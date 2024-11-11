@@ -199,7 +199,8 @@ article {
     position: relative;
 }
 
-#gallery h2 {
+/* hidden headings */
+.hidden {
     display: none;
 }
 
@@ -262,6 +263,7 @@ article {
 address {
     padding-left: 1rem;
     padding-right: 1rem;
+    letter-spacing: 1.2px;
 }
 
 iframe {
@@ -406,6 +408,7 @@ footer {
     color: #fafafa;
     font-size: 100%;
     font-weight: 700;
+    text-align: center;
 }
 
 .submit-button:hover {
@@ -414,12 +417,14 @@ footer {
     background-color: #f7981c;
     box-shadow: 0 1px 2px #f7981c;
 }
-.yellow-dots-contact {
+
+.yellow-dots-clear {
     background: url(../images/dots.png) no-repeat center center/cover;
     height: 100px;
     width: 100px;
     margin: 160px auto 1rem;
 }
+
 /* thank you page */
 .thank-you {
     margin-top: 200px;
@@ -599,6 +604,7 @@ footer {
         left: 2%;
         margin-top: 4rem;
     }
+
     #opening-bg {
         height: 350px;
     }
@@ -636,6 +642,7 @@ footer {
         height: 400px;
         width: 100%;
     }
+
     /* about us */
     #about-img {
         height: 600px;
