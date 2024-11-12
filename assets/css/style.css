@@ -169,7 +169,7 @@ article {
 /* food photos gallery */
 #pot {
     height: 330px;
-    background: url(../images/pot.jpg) no-repeat 80% center/cover;
+    background: url(../images/pot.png) no-repeat 80% center/cover;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -342,7 +342,7 @@ footer {
 }
 
 #about-img {
-    background: url(../images/volunteers-group.jpg) no-repeat top center/cover;
+    background: url(../images/volunteers-group.png) no-repeat top center/cover;
     width: 100%;
     height: 440px;
     object-fit: cover;
