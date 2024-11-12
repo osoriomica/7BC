@@ -42,7 +42,7 @@
     <!-- main -->
     <main>
         <div class="yellow-dots-clear"></div>
-        <section id="contact">
+        <section id="contact" aria-description="Happy staff making coffee">
             <!-- 
             The method should be POST for this type of form, but Github Pages doesn't allow POST requests. 
             To emulate the intended user experience, I've used GET to redirect to a custom Thank You page. 
@@ -61,7 +61,7 @@
                 <input type="email" name="email" id="email" class="text-input" required>
                 <br>
                 <label for="comments">Leave us a message and we'll be in touch: </label>
-                <textarea name="comments" id="comments" class="text-input"></textarea>
+                <textarea name="comments" id="comments" class="text-input" required></textarea>
                 <br>
                 <input type="submit" value="SUBMIT" class="submit-button">
             </form>
