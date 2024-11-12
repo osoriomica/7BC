@@ -11,11 +11,23 @@ Parting from the existing website and social media presence, my version of The S
 The original website can be visited here: [The Seven Bridges](https://thesevenbridges.co.uk/#)
 
 ## Strategy
+In this first deployment, I focus on a basic structure for the site with 3 pages that provide an overview of the cafe and the work placement project, showcase their current menu and colourful design, and finally, provide a contact page for potential volunteers and donors to reach the business.
+The business goals for this website are:
+-Build brand awareness and trust.
+-Provide an online presence that better reflects their ethos.
+-Translate users into followers, in-person customers, volunteers or donors.
+-Appealing imagery to reflect their seasonal menus and friendliness of their staff.
 
-What are the aims for this project and who are its potential users?
+The customer goals of this website are:
+-Being able to plan a visit to The Seven Bridges.
+-Learn about the volunteer project taking place at the restaurant.
+-Being able to contact the organisation with enquiries and feedback.
+-Connect with the organisation through their social media. 
 
-I aim to convey the social origin of the cafe and the interest of the business in creating connections, bridges between cultures and people whilst offering a place of learning and community over food. 
-In this first deployment, I focus on the basic structure of the site with 3 pages that provide an overview of the cafe, showcase their current menu and design, and finally, provide a contact page for potential volunteers and donors to reach the business. 
+**Note from the developer:** During the drafting and strategy process, I visited The Seven Bridges to take new photos, consulted their printed materials with the original website and talked with the front of house staff and headchef about their online presence.
+I found The Seven Bridges was not listed on Google Maps, so I've now created a listing for them with some of the photos and correct contact details and a review in order to help their online visibility. I've included this listing as a feature on the homepage under "Where to find us" section.   
+I also consulted the copy available at [The West End Refugee Service (WERS) website](https://www.wers.org.uk/7bc) regarding The Seven Bridges and compared it to the original website. I've used a mashup from both sources and edited the copy to suit my project. 
+
 ### User stories
 
 This website is used by the following users:
@@ -84,6 +96,9 @@ The website follows a simple linear structure to not overload the users. Both th
 
 
 ## Skeleton
+The information architecture and inner wireframes can be consulted in the [Readme Folder](https://github.com/osoriomica/7BC) available on my 7BC repo on Github.
+
+## Surface
 
 ### Color Reference
 The colour palette used throught the website is the same as the official branding used by Dance City in regards of the project. The features in this website have bold colours in the background, interactive elements and sections with block colours to reflect the style of the actual premises (bright blue walls, red chairs, plants hanging from the ceiling, etc.)
@@ -125,17 +140,17 @@ The finished Website should have:
 - Rectangular table with photos on a 3 by 2 display. 
 - Width spans across the screen.  
 - Grows with screen to a maximum of 1800px. 
-7. Form:
-- Set over the hero image on Contact page. Blue #048382 background. White font colour. Heading styled on uppercase. Bold.
-- Text input fields on a separate line to the input name (i.e. First Name:), as wide as containing box and padding allow. Border of fields in a solid white line and transparent background (blue). When active, background turns white and input text is dark grey to make it easier to read.
-- Slight rounding of corners on all boxes.
-8. Thank you page:
-- H2: THANK YOU!
-- paragraph under: Thank you for contacting us, we'll get in touch to you soon!
-9. Size restrictions and responsiveness:
--  Website is mobile first.
-- Media queries and use of flexbox to increase sizing of elements and rearranging them on the grid.
-- Maximum size is set to 1800px. Screens bigger than that see the main elements of the body staying the same size in the center of the screen through the use of max-width:1800px and margins left and right set to auto. This is to prevent the site from over stretching on extra large screens.
+7. Form:  
+- Set over the hero image on Contact page. Blue #048382 background. White font colour. Heading styled on uppercase. Bold.  
+- Text input fields on a separate line to the input name (i.e. First Name:), as wide as containing box and padding allow. Border of fields in a solid white line and transparent background (blue). When active, background turns white and input text is dark grey to make it easier to read.  
+- Slight rounding of corners on all boxes.  
+8. Thank you page:  
+- H2: THANK YOU!  
+- paragraph under: Thank you for contacting us, we'll get in touch to you soon!  
+9. Size restrictions and responsiveness:  
+-  Website is mobile first.  
+- Media queries and use of flexbox to increase sizing of elements and rearranging them on the grid.  
+- Maximum size is set to 1800px. Screens bigger than that see the main elements of the body staying the same size in the center of the screen through the use of max-width:1800px and margins left and right set to auto. This is to prevent the site from over stretching on extra large screens.  
 10. Buttons:
 - Round Edges.  
 - Red #bd1a21 background.  
@@ -150,27 +165,45 @@ The finished Website should have:
       
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+Thanks to my mentor Brian Macharia for his time and amazing way of explaining absolutely anything perfectly.  
+To the folk at Dance City and The Seven Bridges for allowing me to reimagine their website.  
 
+### Credits and external code sources
+Copy and most of the photos and imagery used were taken from the original website, prited menus and social media accounts. They were slightly modified to better suit this project.  
+The base of the website follows closely the layout and code used on the Walkthrough project Love Running by Code Institute. 
+Snippets of code taken from these sources were then edited to fit the needs of this project.  
+Some references were introduced within the code as comments over the relevant sections.  
+**Websites used in the development of this website:**  
+- https://www.w3schools.com/ on CSS: Navbar, Pseudo-classes, z-index, Website Layout and columns; Hide menu on scroll, pseudo-classes, etc.  
+- https://developer.mozilla.org/en-US/ on: Box-Shadow and aria labels.  
+- https://fontawesome.com/ for the icons: Facebook, Instagram, location pin and telephone.  
+- https://www.svgrepo.com/ for the icon: Deliveroo. 
+- https://www.codecademy.com/resources/docs/html/semantic-html/address on: semantic tag < address >. 
+
+## Technologies used
+This website was mainly written with HTML and CSS. I've used a couple of JS scripts from external sources. 
+- [google fonts](https://fonts.google.com/)  
+- https://imagecolorpicker.com/ to find the rgb values of my colour palette.
+- [Grammarly](https://app.grammarly.com/) to spell check my copy.
+- Github Codespaces for the entire development of the website.
 
 ## Deployment
-For a future deployment, it would be best to optimise all imagery used to increase loading times. I would also like to digitalise the printed menus and have them as downloadable files on the homepage. I would like to add a donations section and button on the about us. 
+For a future deployment, it would be best practice to optimise all imagery used to increase loading times. I would also like to digitalise the printed menus and have them as downloadable files on the homepage. I would like to add a donations section and a relevant link on the About us page. 
+
 For deploying the website, I followed the steps given by Codeinsitute’s tutorials:  
-1. Go to the Settings tab of your GitHub repo.
-2. On the left-hand sidebar, in the Code and automation section, select Pages.
-3. Make sure:
-    * Source is set to 'Deploy from Branch'.
-    * Main branch is selected.
-    * Folder is set to / (root).
-4. Under Branch, click Save.
-5. Go back to the Code tab. Wait for the build to finish and refresh your repo.
-6. In the Environments section, click on 'github-pages'.
-7. Click View deployment to see the live site. 
+1. Go to the Settings tab of your GitHub repo.  
+2. On the left-hand sidebar, in the Code and automation section, select Pages.  
+3. Make sure:  
+    * Source is set to 'Deploy from Branch'. 
+    * Main branch is selected. 
+    * Folder is set to / (root).  
+4. Under Branch, click Save. 
+5. Go back to the Code tab. Wait for the build to finish and refresh your repo. 
+6. In the Environments section, click on 'github-pages'. 
+7. Click View deployment to see the live site.  
 
 **To clone and deploy this project**
-From your account of Github, visit my repository [7BC](https://github.com/osoriomica/7BC/) 
+From your account of Github, visit my repository [7BC](https://github.com/<osoriomica>/<7BC>) 
 Locate the Project GitHub repository and click the green "Gitpod" icon on the top right corner of my repo to start a new Gitpod workspace. 
 You then have the option of working locally or downloading the project locally to be edited with an IDE such as VS code. 
 
@@ -187,10 +220,20 @@ The site has been continously checked for validation since deployment. It has pa
     </a>
 </p>
 
+### Testing and debugging
+
+Along the building of the website, the code was constantly tested to make sure the elements looked as intended.  
+
+Some of the testing included:  
+    - Running the terminal preview to see the code on a Google Chrome browser. If an element was out of place or not behaving properly, I would then go back to the code to check the structure and the values used.  
+    - Using Inspect, Dev Tools to identify strange margins and sizing of elements and their relation to the rest of the page.  
+    - Checking all buttons and links were properly working by clicking on them. When this failed, I would then go back to the code to make sure that the paths used were correct or that the closing tags where there or that there were no mispellings on the code. 
+    - Resizing the screen using different the devices available on the dropdown menu of the Inspect Tool of Google Chrome.  
+        This was particularly useful to see how my website would look from the smallest screens and how it changed as the screen went past the different media queries' thresholds. Sometimes, an element would jump in size or leave odd gaps on the layout and being able to see them on the preview would allow me to go back to the code and change values or add new rules to particular items.  
+    
 
 ## Related
 
 Here are some websites related to this project: 
 - [West End Refugee Service - WERS](https://www.wers.org.uk/)
-- [Dance City](https://www.dancecity.co.uk/)
-
+- [Dance City](https://www.dancecity.co.uk/) 
