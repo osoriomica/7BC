@@ -229,8 +229,12 @@ Some of the testing included:
     - Using Inspect, Dev Tools to identify strange margins and sizing of elements and their relation to the rest of the page.  
     - Checking all buttons and links were properly working by clicking on them. When this failed, I would then go back to the code to make sure that the paths used were correct or that the closing tags where there or that there were no mispellings on the code. 
     - Resizing the screen using different the devices available on the dropdown menu of the Inspect Tool of Google Chrome.  
-        This was particularly useful to see how my website would look from the smallest screens and how it changed as the screen went past the different media queries' thresholds. Sometimes, an element would jump in size or leave odd gaps on the layout and being able to see them on the preview would allow me to go back to the code and change values or add new rules to particular items.  
-    
+        This was particularly useful to see how my website would look from the smallest screens and how it changed as the screen went past the different media queries' thresholds. Sometimes, an element would jump in size or leave odd gaps on the layout and being able to see them on the preview would allow me to go back to the code and change values or add new rules to particular items. 
+    - Test1: Checking website works on extra large screens. Issue: The layout would stretch out and be umpleasant to look at. Fix: Set a max width for the body and clear both sides with automatic left and right margins (fix offered by mentor).  
+    - Test2: Contact form redirecting to a Thank you page. Issue: Github doesn't allow POST method and won't let me redirect to the Thank you page. Fix: Change method to GET (for the sake of the project submission). 
+    - Test3: Checking Footer doesn't impede the readibility of my website (specially on mobile). Issue: Originally the footer was always visible and would take up too much space of the screen making for a limited area for the main content. FIx: change position to sticky and give main content a higher z-index to make it overlap the footer and slide it under. 
+    - Test4: Navbar's position on the screen. Issue: On mobile screens, Navbar was taking too much space from the main content. Fix: Included a Javascript function to make it scroll up out of the screen when the user scrolls down.     
+    - Test5: Lighthouse Test. Issue: Some of the images used where slowing down the website and scored poorly on speed. Fix: Edited the size of the image files to fit the maximum size they'd be displayed on the website, then I changed their format to png and replaced them on the repository.
 
 ## Related
 
