@@ -98,6 +98,42 @@ The website follows a simple linear structure to not overload the users. Both th
 ## Skeleton
 The information architecture and inner wireframes can be consulted in the [Readme Folder](https://github.com/osoriomica/7BC) available on my 7BC repo on Github.
 
+**Here you may also see the skeleton sketches for each page (click on the arrows to see the relevant skeleton sketches):**
+
+<details>
+<summary><strong>Homepage</strong> </summary>
+<br>  
+
+![Home Skeleton](readme/skeleton/homepage-skeleton.png)
+</details>
+
+<details>
+<summary><strong>About us</strong> </summary>
+<br> 
+
+![About us Skeleton](readme/skeleton/about-us-skeleton.png)
+</details>
+
+<details>
+<summary><strong>Contact </strong> </summary>
+<br>  
+
+![Contact Skeleton](readme/skeleton/contact-skeleton.png)
+</details>
+
+<details>
+<summary><strong>Thank you</strong></summary>
+<br>  
+
+![Thank you Skeleton](readme/skeleton/thank-you.png)
+</details>
+
+
+
+### Information Architecture diagram
+
+![Information Architecture diagram of Seven Bridges website](readme/information-arquitecture-diagram.png)
+
 ## Surface
 
 ### Color Reference
@@ -228,6 +264,7 @@ The site has been continously checked for validation since deployment. It has pa
 ![screenshot of contact html validation](readme/html-validation-tests/html-contact.png) 
 ![screenshot of thank you html validation](readme/html-validation-tests/html-thank-you.png) 
 </details>
+
 
 
 ### Testing and debugging
