@@ -210,8 +210,7 @@ You then have the option of working locally or downloading the project locally t
 ## Validation
 The site has been continously checked for validation since deployment. It has passed the validation checks both on **W3C Nu HTML Validation Checker** and **W3C CSS Validation Service**.
 
-- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
-- [W3C NU HTML Validation](https://validator.w3.org/)
+**W3C CSS Validation:**
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -219,6 +218,17 @@ The site has been continously checked for validation since deployment. It has pa
             alt="Valid CSS!" />
     </a>
 </p>
+
+<details>
+<summary><strong>W3C NU HTML Validation:</strong> (click on the arrow to see the html validation screenshots)</summary>
+<br>
+
+![screenshot of home html validation](readme/html-validation-tests/html-home.png) 
+![screenshot of about html validation](readme/html-validation-tests/html-about.png) 
+![screenshot of contact html validation](readme/html-validation-tests/html-contact.png) 
+![screenshot of thank you html validation](readme/html-validation-tests/html-thank-you.png) 
+</details>
+
 
 ### Testing and debugging
 
