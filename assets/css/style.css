@@ -215,9 +215,9 @@ article {
 }
 
 #opening-bg {
-    background: url(../images/red-chairs.png) no-repeat left 50%/cover;
     height: 250px;
     width: 100%;
+    object-fit: cover;
     border-radius: 3px;
 }
 
