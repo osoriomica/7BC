@@ -12,10 +12,13 @@ The original website can be visited here: [The Seven Bridges](https://thesevenbr
 
 ## Strategy
 In this first deployment, I focus on a basic structure for the site with 3 pages that provide an overview of the cafe and the work placement project, showcase their current menu and colourful design, and finally, provide a contact page for potential volunteers and donors to reach the business.
+
+The website was developped with a mobile-first, responsive design using Flexbox which offers greater creativity in the design of the website and avoids the generic look of Bootstrap.
+
 The business goals for this website are:
 -Build brand awareness and trust.
 -Provide an online presence that better reflects their ethos.
--Translate users into followers, in-person customers, volunteers or donors.
+-Translate users into followers, in-person customers, volunteers and/or donors.
 -Appealing imagery to reflect their seasonal menus and friendliness of their staff.
 
 The customer goals of this website are:
@@ -24,9 +27,9 @@ The customer goals of this website are:
 -Being able to contact the organisation with enquiries and feedback.
 -Connect with the organisation through their social media. 
 
-**Note from the developer:** During the drafting and strategy process, I visited The Seven Bridges to take new photos, consulted their printed materials with the original website and talked with the front of house staff and headchef about their online presence.
-I found The Seven Bridges was not listed on Google Maps, so I've now created a listing for them with some of the photos and correct contact details and a review in order to help their online visibility. I've included this listing as a feature on the homepage under "Where to find us" section.   
+**Note from the developer:** During the drafting and strategy process, I visited The Seven Bridges to take new photos and video, compared their printed materials with the original website and talked with the front of house staff and headchef about their online presence.
 I also consulted the copy available at [The West End Refugee Service (WERS) website](https://www.wers.org.uk/7bc) regarding The Seven Bridges and compared it to the original website. I've used a mashup from both sources and edited the copy to suit my project. 
+I found The Seven Bridges was not listed on Google Maps, so I've now created a listing for them with some of the photos and correct contact details and a review in order to help their online visibility. I've included this listing as a feature on the homepage under "Where to find us" section.   
 
 ### User stories
 
@@ -78,7 +81,7 @@ The website follows a simple linear structure to not overload the users. Both th
     - Hero image firectly under the header. Heading "FOOD. CONVERSTION. ART." over the image.
     - Intro text with accompanying image of a plant on a table of the cafe.
     - Small gallery with photos of menu dishes.
-    - Opening Times section.
+    - Opening Times section with an embedded video and playback controls.
     - Where to Find us section with Google Maps embedded iframe and text address and telephone number underneath.
     - Footer with logos to Dance City and WERS, social media icons (instagram and facebook) and deliveroo icon  
 2. About us:
