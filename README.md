@@ -6,15 +6,17 @@
 
 This is an exercise to reimagine the website for The Seven Bridges inside Dance City, Newcastle. I volunteered in their kitchen when the project was just taking shape and helped to cook free meals for people in need. The organisation's director has given me permission to use this as a case study. 
 
-Parting from the existing website and social media presence, my version of The Seven Bridges website aims to convey a different personality of the cafe and its ethos and offer a customer friendly interface and engaging copy.
+Parting from the existing website and social media presence, my version of The Seven Bridges website aims to convey a different personality of the cafe and its ethos and offer a customer friendly interface thru engaging copy and more visuals.
 
 The original website can be visited here: [The Seven Bridges](https://thesevenbridges.co.uk/#)
 
 ## Strategy
 In this first deployment, I focus on a basic structure for the site with 3 pages that provide an overview of the cafe and the work placement project, showcase their current menu and colourful design, and finally, provide a contact page for potential volunteers and donors to reach the business.
 
-The website was developped with a mobile-first, responsive design using Flexbox which offers greater creativity in the design of the website and avoids the generic look of Bootstrap.
+### Flexbox vs Bootstrap
+For the development of this project, I opted for the use of Flexbox over Bootstrap to better my understanding of HTML and CSS whislt avoiding the potentially generic look of Bootstrap. The website was developped with a mobile-first approach, using Flexbox and media queries to deliver a responsive design. 
 
+### Goals
 The business goals for this website are:
 -Build brand awareness and trust.
 -Provide an online presence that better reflects their ethos.
@@ -56,7 +58,7 @@ Based on the previous information, this website includes the following features:
 - Hero image with photo of a vibrant-looking dish and a heading  
 - Introductory text that invites customers to visit and try the food  
 - Photos of the menu dishes in a 3 by 2 responsive table  
-- Opening Hours with accompanying image of a sitting area within the cafe    
+- Opening Hours with with an embedded video showing the inside of Seven Bridges and playback controls.   
 - Find us section: a Google Maps iframe followed by address/telephone number  
 - Footer with relevant external links to Dance City, WERS, social media and Deliveroo  
 
