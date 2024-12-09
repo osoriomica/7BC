@@ -270,7 +270,11 @@ The site has been continously checked for validation since deployment. It has pa
 ![screenshot of thank you html validation](readme/html-validation-tests/html-thank-you.png) 
 </details>
 
+### Development of project
 
+This project was built following the below timeline:
+
+![Gantt Chart of website's development](readme/gantt-chart.png)
 
 ### Testing and debugging
 
