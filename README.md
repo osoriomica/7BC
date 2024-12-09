@@ -288,6 +288,8 @@ Some of the testing included:
     - Test4: Navbar's position on the screen. Issue: On mobile screens, Navbar was taking too much space from the main content. Fix: Included a Javascript function to make it scroll up out of the screen when the user scrolls down.     
     - Test5: Lighthouse Test. Issue: Some of the images used where slowing down the website and scored poorly on speed. Fix: Edited the size of the image files to fit the maximum size they'd be displayed on the website, then I changed their format to png and replaced them on the repository.
 
+![Testing of website](readme/testing-plan.png)
+
 ## Related
 
 Here are some websites related to this project: 
