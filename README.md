@@ -2,8 +2,28 @@
 ![Logo](https://images.squarespace-cdn.com/content/v1/5fb53bf4fdec7c4fcbeae300/4468a3be-5f35-493d-bfe6-4ed637cbb260/Seven_Bridges.jpg?format=50w)
 
 # The Seven Bridges
-[View deployed site here](https://osoriomica.github.io/7BC/)
+[View the deployed project by clicking here.](https://osoriomica.github.io/7BC/)
+#### Finished project screenshots:
+<details>
+<summary>The Seven Bridges - homepage</summary>
+<br>  
 
+![Homepage](readme/final-website/index-final.png)
+</details>
+<details>
+<summary>The Seven Bridges - about</summary>
+<br>  
+
+![Homepage](readme/final-website/about-final.png)
+</details>
+<details>
+<summary>The Seven Bridges - contact</summary>
+<br>  
+
+![Homepage](readme/final-website/contact-final.png)
+</details>
+
+<br>
 This is an exercise to reimagine the website for The Seven Bridges inside Dance City, Newcastle. I volunteered in their kitchen when the project was just taking shape and helped to cook free meals for people in need. The organisation's director has given me permission to use this as a case study. 
 
 Parting from the existing website and social media presence, my version of The Seven Bridges website aims to convey a different personality of the cafe and its ethos and offer a customer friendly interface thru engaging copy and more visuals.
