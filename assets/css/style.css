@@ -352,6 +352,10 @@ footer {
     padding-left: 1rem;
 }
 
+.volunteer-info{
+    line-height: 1.6rem;
+}
+
 .yellow-dots {
     background: url(../images/dots.png) no-repeat center center/cover;
     height: 100px;
