@@ -280,6 +280,8 @@ The site has been continously checked for validation since deployment. It has pa
     </a>
 </p>
 
+![CSS validation screenshot](readme/css-validation-screenshot.png)
+
 <details>
 <summary><strong>W3C NU HTML Validation:</strong> (click on the arrow to see the html validation screenshots)</summary>
 <br>
